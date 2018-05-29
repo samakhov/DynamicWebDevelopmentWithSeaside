@@ -1,35 +1,14 @@
-language: smalltalk
-sudo: false
-
-os:
-  - linux
-
-smalltalk:
-  - Pharo-6.1
-
-# Unit tests run the normal pillar tests
-# Integration tests test that pillar itself can interact with generated files, pdf generation, etc.
-# System tests test that we can install and use pillar as a black box
-env:
-  matrix:
-  - JOB=test TYPE=System ARCHETYPE=book OUTPUT=pdf
-
-install:
-  # Pillar installation
-  - git clone https://github.com/pillar-markup/pillar.git  # Clone pillar
-  - cd pillar && ./scripts/build.sh && cd ..                              # Run pillar build script. Pillar will be built in `pwd`/build!
-  - . pillar/scripts/ci/ensure_latex.sh                                   # Install latex
-  - ./pillar/scripts/ci/ensure_book_dependencies.sh                       # Install latex dependencies required by pillar
-  
+language: c
+addons:
+  apt:
+    packages:
+    - libasound2:i386
+    - lib32z1
+    - lib32bz2-1.0
+    - libssl1.0.0:i386
+    - libfreetype6:i386
 script:
-  - ./pillar/build/pillar build pdf
-
-deploy:
-- provider: bintray
-  file: .bintray.json
-  on:
-    repo: SquareBracketAssociates/DynamicWebDevelopmentWithSeaside
-  skip_cleanup: true
-  user: ducasse
-  key:
-    secure: osYfgDLs11ifqkHfXXHzpTRD+k1ALVYjM4aDSKNwB0u32DLtL6GyMoDhLZH3ddSxto34TwgiRhnz5lH+PKyjhrnJ8UHe6+V6wIi3sFSIdVeqP8jT8cGi+8O1J+frjCHmEGZEWQQAxbhuJzydd0EfMM6OJE/rA8R/POLprXVdT9c=
+- if [[ ${TRAVIS_BRANCH} == "master" ]]; then make deploy; fi
+env:
+  global:
+    secure: nVK7VG8lzB+xrNOraZiYbUW7TzuTGdh+NvH0tvaQDsqlto9gZP1q/18tTxWSUjLAgSQUMWqv3hzJR076puHW3LcO6baVRydQ9nelLOoIE/c+y+iKy8YICwEIsxagK3Htuffjxmfe9yXmZ/fkV3p9Bq86p4hkRmO88jnLiVg/wb00IItDPhbqlAz+EGKBsMqjKZaR/96gvDW5E8l/Xnbjui7JkpaZSBeFVXBoKijj/jfvTi5lLWJgLWAyzI1yUwl9qlJ4DC0G/9Kfw+Boo/TLF3CmbGa95ljtrRYh9vBy5oWKx3biMqSxNuwoSFDB/8QpRRmoNT7DYxaTtAexhqK2k/Awat/93zORoVVj+9stnJFvjiAyuV9NHjrVt4lLIPDdjSvqewEcFrsSEClBfVD+3zyCI6BPH/x+MiImWvPggzApbQNT5orOoq0U0S2TsrEB14S+CQ7pUOkb0bjLg2fuhZR8vyGMSNVcMOHqvIfR9XA5Fl12e/A4eHYNRXe/KBui+xj3DOwHgZ0zVhcSVkMbYZ9g11/Gj6A59uQqIcVdNXSEFOzePTS7kpCEvIXjBzVv/C4GiKvE2dt2v84bThxIqkZ36JLVyiKQYA+DjLJmV82adK0oDa9cyMsndTiA2LjsPCkXGUJ/LevESewwMQc8YI365EkolVJCbYlhZFIDK+Q=
