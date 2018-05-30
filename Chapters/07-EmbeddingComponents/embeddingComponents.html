@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pharo Book</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/font-awesome.min.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/nucleus.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/flex.css" rel="stylesheet">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/bootstrap.min.css">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/jquery-2.x.min.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/highlight.pack.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/highlight-commands.js"></script>
+<meta name="description" content="">
+<meta name="author" content="Stéphane Ducasse \ (based on S. Ducasse, D.C. Shaffer, L. Renggli, and R. Zaccone)">
+  </head>
+  <body>
+    <header>
+  <div class="logo">
+    <a class="baselink" href="/DynamicWebDevelopmentWithSeaside/">Pharo Book</a>
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+   		<li data-nav-id="123" class="dd-item">
+    		<a href="/DynamicWebDevelopmentWithSeaside">
+		       <i class="fa fa-fw fa-home"></i>
+	    	</a>
+        </li>
+
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#getting started">
+					Getting Started
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#getting started in gemstone/s">
+							Getting Started in Gemstone/S
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#using the glass virtual appliance">Using the GLASS Virtual Appliance</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#a first seaside component">A first Seaside Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining a component">Defining a Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining some methods">Defining Some Methods</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#rendering a counter">Rendering a Counter</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#registering the application">Registering the application</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#adding behavior">Adding Behavior</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#keeping up with the latest features">Keeping Up with the Latest Features</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#gemstone version">
+							Gemstone version
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#fundamentals">
+					Fundamentals
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#using components">
+					Using Components
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#seaside in action">
+					Seaside in Action
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#wish list of new chapter">
+							Wish list of new chapter
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#willow?">Willow?</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#bootstrap">Bootstrap</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mdl">MDL</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mustaside">Mustaside</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#websockets">WebSockets</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+    </ul>
+  </aside>
+
+  <section class="page">
+    
+	<h1>Dynamic Web Development with Seaside</h1>
+		
+	<h2>Embedding Components</h2>
+<a id="cha:embedding"></a>
+<p>
+Building reusable components and frameworks is the goal of all developers in almost all parts of their applications. The dearth of truly reusable (canned) component libraries for most of the existing web development frameworks is a good indication that this is difficult to do.
+</p>
+<p>
+Seaside is among the few frameworks poised to change this. It has a solid component model giving one all of the mechanisms necessary to develop well encapsulated components and application development frameworks. We have seen in <a href=""></a> that components can be sequenced. In this chapter we show how to embed one component inside another component. In <a href="#ref:decorations"></a>, we will see how to decorate a component to add functionality or change its appearance and as such reuse behavior. With a good component model, the possibility to display components and create new ones by reusing existing ones, writing Seaside applications is very similar to writing GUI applications.
+</p>
+<p>
+We will start by writing an application which embeds one component, then refactor it into an application built out of two components. Finally we will discuss reuse and show how component decoration support this. We will show how components can be plugged together using events to maximize reuse.
+</p>
+<h3>Principle: Component Children</h3>
+
+<p>
+When we want to display several components on the same page, we can embed the components into each other. Usually a Seaside application consists of a main component which is usually called the root component. All the child components of the root component and their recursive children form a tree of nested components.
+</p>
+<p>
+Child components are no different to other components or the root component. Note that the component tree of an application might change during the lifetime of a session. Through user interaction new components can be shown and old ones can be hidden.
+</p>
+<p>
+Seaside requires that each component knows and declares all its visible child components using the method <code>WAComponent&gt;&gt;children</code>. This allows Seaside to know in advance what components will be visible when building the HTML and configure and trigger some event on these components before the actual rendering happens.
+</p>
+<p>
+Note that Seaside does not require children to know their parents and the framework also does not provide this information. When instantiating the components such a link can be easily established, but we do not suggest doing so as it would introduce strong coupling between the child component and its parent. For example, it would no longer be easily possible to use the same component in a different context.
+</p>
+<p>
+Here are the steps that should be performed to embed components within another.
+</p>
+<ol><li>The parent component initializes the child components in the method <code>initialize</code>.</li>
+<li>The parent component defines a method named <code>children</code> that returns all its direct child component instances, regardless of how and where they are store.</li>
+<li>The parent component renders its child components in the method <code>renderContentOn:</code> using <code>html render: aComponent</code>.</li>
+</ol>
+
+
+<h3>Example: Embedding an Editor</h3>
+
+<p>
+We will build a new variation of our contact list manager. What we'd like to do is adapt our contact manager so that we see the item editor on the same page as the contact list item. That is, we want to embed the editor on the same page as the address list itself. While we could adapt the previous component to embed a component, we prefer to define a new component from scratch.
+</p>
+<p>
+<a id="@ref:listAndItem"></a>
+<figure>
+	<img src="figures/iAddress-ListAndEditor.png" width="80%" id="@ref:listAndItem" alt="Embedding a ContactView into another component."/>
+	<figcaption>Embedding a ContactView into another component.</figcaption>
+</figure>
+</p>
+
+<p>
+We already have a working editor component so let's just add it to a new <code>IAddress</code> component. That is, we're going to embed the <code>ContactView</code> component within the <code>IAddress</code> component.
+</p>
+<p>
+<strong>Create the class.</strong> First we create the class of the new component <code>IAddress</code>.
+</p>
+<figure><pre><code>WAComponent subclass: #IAddress
+    instanceVariableNames: 'editor'
+    classVariableNames: ''
+    package: 'iAddress'</code></pre><figcaption></figcaption></figure>
+
+<p>
+We add an instance variable, <code>editor</code>, to the class <code>IAddress</code> which is a reference to the editor that we will embed within our <code>IAddress</code> component. It is not always necessary to maintain a reference to an embedded component: we could also create the component on the fly (as soon as it is returned as part of the component' children). In our case, since the elements of our application are stateful objects, it is better to reuse components, taking advantage of the fact that they can store state, rather than recreating them. We will revisit this issue in <a href="#ref:coupling"></a>.
+</p>
+<p>
+<strong>Initialize instances.</strong> The <code>initialize</code> method creates the editor and gives it a default contact to edit. We can then reuse the editor to edit other contacts, avoiding the need to create a new editor every time we want to edit something.
+</p>
+<figure><pre><code>IAddress&gt;&gt;contacts
+    ^ Contact contacts</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; initialize
+    super initialize.
+    editor := ContactView new.
+    editor contact: self contacts first</code></pre><figcaption></figcaption></figure>
+
+<p class="note">Important <strong>Specifying the component's children.</strong> Any component that uses embedded children components should make Seaside aware of this by returning an array of those components. This is necessary because Seaside needs to be able to figure out what components are embedded within your component; Seaside needs to process all the callbacks for all of the components that may be displayed, before it starts any rendering of those components. Unless you add the children components to the parent's <code>children</code> method, the first Seaside will know about your children components is when you reference them in your rendering methods.</p>
+
+<p>
+<strong>Specify the children.</strong> Here is how to define the method <code>children</code> which returns an array containing the editor that is accessible via the instance variable <code>editor</code>.
+</p>
+<figure><pre><code>IAddress &gt;&gt; children
+    ^ Array with: editor</code></pre><figcaption></figcaption></figure>
+
+<p>
+<strong>Specify some actions.</strong> Now define methods to create, add, remove and edit a contact.
+</p>
+<figure><pre><code>IAddress &gt;&gt; addContact: aContact
+    Contact addContact: aContact</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; askAndCreateContact
+    | name emailAddress |
+    name := self request: 'Name'.
+    emailAddress := self request: 'Email address'.
+    self addContact: (Contact name: name emailAddress: emailAddress)</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>IAddress &gt;&gt; editContact: aContact
+    editor contact: aContact</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; removeContact: aContact
+    (self confirm: 'Are you sure that you want to remove this contact?')
+        ifTrue: [ Contact removeContact: aContact ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+<a id="ref:ref:list-editor-with-halo"></a>
+<figure>
+	<img src="figures/iAddress-ListAndEditorWithHalos.png" width="80%" id="ref:ref:list-editor-with-halo" alt="Embedding a ContactView into another component with Halos."/>
+	<figcaption>Embedding a ContactView into another component with Halos.</figcaption>
+</figure>
+</p>
+
+<p>
+Embedding a ContactView into another component with Halos.
+</p>
+<p>
+<strong>Some rendering methods.</strong> We use a table to render the current contact list and let the user edit a contact by clicking on the name link.
+</p>
+
+<figure><pre><code>IAddress &gt;&gt; renderContentOn: html
+    html form: [
+        self renderTitleOn: html.
+        self renderBarOn: html.
+        html table: [ 
+            html tableRow: [
+                html tableHeading: 'Name'.
+                html tableHeading: 'Address' ].
+            self renderDatabaseRowsOn: html ].
+        html horizontalRule.
+        html render: editor ]</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; renderTitleOn: html
+    html heading level: 2; with: 'iAddress'</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; renderBarOn: html
+   html anchor
+       callback: [ self askAndCreateContact ]; 
+       with: 'Add contact'</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; renderDatabaseRowsOn: html
+    self contacts do: [ :contact |
+        html tableRow: [ self renderContact: contact on: html ] ]</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddress &gt;&gt; renderContact: aContact on: html
+    html tableData: [
+        html anchor
+            callback: [ self editContact: aContact ];
+            with: aContact name].
+    html tableData: aContact emailAddress.
+    html tableData: [
+        html anchor
+            callback: [ self removeContact: aContact ];
+            with: '--' ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+Register the application as &quot;iAddress&quot; and try it out. Make sure that the editor is doing its job. Activate the halos. You'll notice that there is a separate embedded halo around the editor component, see <a href="#ref:list-editor-with-halo"></a>. It is very helpful to inspect the state of a component in a running application (or view the rendered HTML.)
+</p>
+<p class="note">Our simple implementation of <code>IAddress&gt;&gt;editContact:</code> will save changes even when you press <em>cancel</em>. See <a href=""></a> to understand how you can change this.</p>
+
+<h3>Components All The Way Down</h3>
+
+<p>
+The changes to your code in this section are presented purely to help you explore the embedding of components: they are not an example of good UI design, and are not required to progress with the following sections.
+</p>
+<p>
+Let's define a component that manages our list of contacts using components all the way down. Figure <a href="#ref:pluggable-halos"></a> shows that we will build our application out of two components: <code>PluggableContactListView</code> and <code>ContactView</code>. In addition, <code>PluggableContactListView</code> will be composed of several <code>ReadOnlyOneLinerContactView</code> components. We really get a tree of components. This exercise shows that a component should be designed to be pluggable. It also shows how to plug components together.
+</p>
+<p>
+<a id="@ref:pluggable-halos"></a>
+<figure>
+	<img src="figures/PluggableHalos.png" width="80%" id="@ref:pluggable-halos" alt="With components all the way down."/>
+	<figcaption>With components all the way down.</figcaption>
+</figure>
+</p>
+<p>
+PluggableHalos
+</p>
+<p>
+<strong>A Minimal Contact Viewer.</strong> We would like to have a compact contact viewer. First we will subclass the <code>ContactView</code> class to create the class <code>ReadOnlyOneLinerContactView</code>. This class has an instance variable <code>parent</code> which will hold a reference to the component that will contain it, since it should know how to invoke the contact editor.
+</p>
+<figure><pre><code>ContactView subclass: #ReadOnlyOneLinerContactView
+    instanceVariableNames: 'parent'
+    classVariableNames: ''
+    package: 'iAddress'</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>ReadOnlyOneLinerContactView &gt;&gt; parent: aParent
+    parent := aParent</code></pre><figcaption></figcaption></figure>
+
+<p>
+When the user clicks on the contact name, we want the associated user object to pass itself to the parent for editing. A similar action should occur when removing a contact from the database. Note that this component does not include a form. This is because only one form should be present on a page at any time, so a component is much more reusable if it does not define a form.
+</p>
+<figure><pre><code>ReadOnlyOneLinerContactView &gt;&gt; renderContentOn: html
+        html anchor
+            callback: [parent editContact: self contact];
+            with: self contact name.
+        html space.
+        html text: self contact emailAddress.
+        html space.
+        html anchor
+            callback: [parent removeContact: self contact];
+            with: '--'.
+        html break.</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+<strong>Class Definition.</strong> Now we define the class <code>PluggableContactListView</code>. Since this component will embed all the contact viewer components, we add an instance variable <code>contactViewers</code>, that will refer to them. We also define an instance variable to refer to the editor that will show the detailed information of the currently selected contact.
+</p>
+<figure><pre><code>ContactListView subclass: #PluggableContactListView
+    instanceVariableNames: 'contactViewers editor'
+    classVariableNames: ''
+    package: 'iAddress'</code></pre><figcaption></figcaption></figure>
+
+<p>
+We will use an identity dictionary to keep track of the contact viewer associated with each contact. Initializing our top level component consists of first creating the editor and then creating the viewers for the existing contacts.
+</p>
+<figure><pre><code>PluggableContactListView &gt;&gt; contacts
+    ^ Contact contacts</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>PluggableContactListView &gt;&gt; initialize
+    super initialize.
+    editor := ContactView new.
+    contactViewers := IdentityDictionary new.
+    self contacts do: [ :each | self addContactViewerFor: each ]</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>PluggableContactListView &gt;&gt; addContactViewerFor: aContact
+    contactViewers
+        at: aContact
+        put: (ReadOnlyOneLinerContactView new
+            contact: aContact;
+            parent: self; &quot; &lt;-- added &quot;
+            yourself)</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>PluggableContactListView &gt;&gt; askAndCreateContact
+     | name emailAddress |
+     name := self request: 'Name'.
+     emailAddress := self request: 'Email address'.
+     self addContact: (Contact name: name emailAddress: emailAddress)</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>PluggableContactListView &gt;&gt; editor: anEditor
+    editor := anEditor</code></pre><figcaption></figcaption></figure>
+
+<p>
+<strong>Children accessing and rendering.</strong> We have now to specify that the contact viewers are embedded within the <code>PluggableContactListView</code> and how to render them.
+</p>
+<figure><pre><code>PluggableContactListView &gt;&gt; children
+    ^ contactViewers values</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>PluggableContactListView &gt;&gt; renderContentOn: html
+    contactViewers values
+        do: [ :each | html render: each. html break ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+We define a couple of methods to manage contacts.
+</p>
+<figure><pre><code>PluggableContactListView &gt;&gt; addContact: aContact
+    Contact addContact: aContact.
+    self addContactViewerFor: aContact</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>PluggableContactListView&gt;&gt;removeContact: aContact
+    contactViewers removeKey: aContact.
+    Contact removeContact: aContact</code></pre><figcaption></figcaption></figure>
+
+<p>
+<strong>Plugging everything together.</strong> Now we are ready to define a new version of <code>IAddress</code>. We simply subclass <code>IAddress</code> and pay attention to the fact that the list is now a component. So we initialize it, add it as part of the children of the component and render it.
+</p>
+<figure><pre><code>IAddress subclass: #IAddressTwoComponents
+    instanceVariableNames: 'list'
+    classVariableNames: ''
+    package: 'iAddress'</code></pre><figcaption></figcaption></figure>
+
+<p>
+We pass the list component to the editor which has already been initialized in <code>IAddress</code>. We must also invoke the list's <code>askAndCreateContact</code> method, since it is the list that manages the creation of contacts. The rendering of the component includes a form in which the other components are embedded.
+</p>
+<figure><pre><code>IAddressTwoComponents &gt;&gt; initialize
+    super initialize.
+    list := PluggableContactListView new.
+    list editor: editor  &quot; &lt;-- added &quot;</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddressTwoComponents&gt;&gt;children
+    ^ super children , (Array with: list)</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddressTwoComponents&gt;&gt;renderBarOn: html
+    html anchor
+        callback: [ list askAndCreateContact ]; 
+        with: 'Add contact'</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>IAddressTwoComponents &gt;&gt; renderContentOn: html
+    html form: [
+        self renderTitleOn: html.
+        self renderBarOn: html.
+        html break.
+        html render: list.
+        html horizontalRule.
+        html render: editor ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+Note of course that embedding such an editor under the list of contacts is not a really good UI design. We just use it as a pretext to illustrate component embedding.
+</p>
+<h3>Intercepting a Subcomponent’s Answer</h3>
+
+
+<p>
+Components may be designed to support both standalone and embedded use. Such components often produce answers (send <code>self answer:</code>) in response to user actions. When the component is standalone the answer is returned to the caller, but if the component is embedded the answer is ignored unless the parent component arranges to intercept it. In our example application the editor provides an answer when the user presses the ``Save'' button (i.e. in <code>ContactView&gt;&gt;save</code>) but this answer is ignored. It is easy to change our application to make use of this information; let's say we want to give the user confirmation that their data was saved. To accomplish this, change <code>IAddress&gt;&gt;initialize</code> and add the  <code>WAComponent&gt;&gt;onAnswer:</code> behaviour:
+</p>
+<figure><pre><code>IAddress &gt;&gt; initialize
+    super initialize.
+    editor := ContactView new.
+    editor contact: self contacts first.
+    editor onAnswer: [ :answer | self inform: 'Saved' ]   &quot; &lt;-- added &quot;</code></pre><figcaption></figcaption></figure>
+
+<p>
+Now restart your application (press ``New Session'') and try it out. When you press the save button in the editor you should get a dialog tersely notifying you that your data is saved. Note that the component answer is passed into the block (although we didn't use it in this example). 
+</p>
+<p>
+The <code>onAnswer:</code> method is an important protocol for handling components and their answer.
+</p>
+
+<h3>A Word about Reuse</h3>
+
+<p>
+Suppose you wanted a component that shows only the name and email of our <code>ContactView</code> component. There are no special facilities in Seaside for doing this, so you may be tempted to use template methods and specialize hooks in the subclasses. This may lead to the definition of empty methods in subclasses and may force you to define as many subclasses as situations you want to cover, for example if you want to create a <code>SimpleContactView</code> and a <code>ReadyonlyContactView</code>. See Figure <a href="#ref:readonly"></a> below.
+</p>
+<p>
+An alternative approach is to build more advanced components using the messages <code>perform:</code> or <code>perform:with:</code> with a list of method selectors to be sent:
+</p>
+<figure><pre><code>setOutlineForm
+    &quot;should be called during action phase&quot;
+    methods :=  #(renderNameOn: renderEmailOn:)</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>renderContentOn: html
+   methods do: [ :each | self perform: each with: html ] </code></pre><figcaption></figcaption></figure>
+
+<p>
+You can also define a component whose rendering depends on whether it is embedded. Here is an example where the rendering method does not wrap its content in a form tag when the component is in embedded mode (i.e., when it would expect its parent to have already created a form in which to embed this component).  A better way of doing this would be to use a <code>FormDecorator</code> as shown in <a href=""></a>.
+</p>
+<figure><pre><code>EmbeddableFormComponent&gt;&gt;renderContent: html body: aBlock
+    self embedded
+        ifTrue: [ aBlock value ]
+        ifFalse: [ html form: aBlock ]</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>EmbeddableFormComponent&gt;&gt;renderContentOn: html
+    self renderContent: html body: [
+        &quot;lots of form elements get rendered here&quot;
+        self renderSaveOn: html ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+This would then be embedded by another component using code like:
+</p>
+<figure><pre><code>ContainingComponent &gt;&gt; renderContentOn: html
+    html form: [
+        &quot;some form elements here, followed by our embeddable Component:&quot;
+        html render: (EmbeddableFormComponent new beEmbedded; yourself) ]</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+If you need more sophisticated dynamic control over the rendering of your component, you may want to use <em>Magritte</em> with Seaside. Magritte is a framework which allows you to define <em>descriptions</em> for your domain objects. It then uses these descriptions to perform automatic actions (loading, saving, generating SQL...). The Magritte/Seaside integration allows one to automatically  generate forms and Seaside components from domain object described with Magritte descriptions, see <a href=""></a>. Magritte also offers ways to construct different views on the same objects and so the possibility to create multiple varieties of components: either by selecting a subset of fields to display, or by offering read-only or editable components. As such, it is an extremely useful addition to plain Seaside.
+</p>
+
+<p>
+<a id="ref:readonly"></a>
+<figure>
+	<img src="figures/readonlyContactView.png" width="80%" id="ref:readonly" alt="A readonly view of the ContactView."/>
+	<figcaption>A readonly view of the ContactView.</figcaption>
+</figure>
+</p>
+
+
+<h3>Decorations</h3>
+<a id="ref:decorations"></a>
+<p>
+Sometimes we would like to reuse a component while adding something to it, such as an information message or extra buttons. Seaside has facilities for doing this. In Seaside parlance, this is called ``decorating'' a component. Note that this is <em>not</em> implemented using the design pattern of the same name, but rather as a <em>Chain of Responsibility</em>. This means that decorations form a chain of special components into which your component is inserted, and that a given message pass through the chain of decorators.
+</p>
+<p>
+Decorations can be added to any component by calling <code>WAComponent&gt;&gt;addDecoration:</code>. Decorations are used to change the behavior or the look of the decorated component.
+</p>
+<p>
+A component decoration is static in the sense that it should not change after the component has been rendered. Thus, a decoration should be attached to a component either just after it (the decorator) is created, or just before the component is passed as argument of a <code>call:</code> message.
+</p>
+
+<figure><pre><code>self call: (aComponent
+    addDecoration: aDecoration; 
+    yourself)</code></pre><figcaption></figcaption></figure>
+
+<p>
+There are three kinds of decorations:
+</p>
+<ul>
+<li><strong>Visual Decorations.</strong> These change a visual aspect of the decorated component:  <code>WAMessageDecoration</code> renders a heading above the component;  <code>WAFormDecoration</code> renders a form with buttons around the component; and  <code>WAWindowDecoration</code> renders a border with a close widget around the component.</li>
+<li><strong>Behavioral Decorations.</strong> These allow you to add some common behaviours to your components:  <code>WAValidationDecoration</code> allows you to add validation of the answer-argument and the display of an error message.</li>
+<li><strong>Internal Decorations.</strong> These support internal logic that you will use when building complex applications:  <code>WADelegation</code> is used to implement the <code>call:</code> message;  <code>WAAnswerHandler</code> is used to handle the <code>answer:</code> message.</li>
+</ul>
+
+
+
+<h4>Visual Decorations</h4>
+
+<p>
+<strong>Message Decorations.</strong>  <code>WAMessageDecoration</code> renders a heading above the component using the message <code>WAComponent&gt;&gt;addMessage:</code>. As an example we add a message to the <code>ContactView</code> component by sending it <code>addMessage:</code>, see <a href="#ref:add-message"></a>.
+</p>
+<figure><pre><code>IAddress &gt;&gt; initialize
+    super initialize.
+    editor := ContactView new.
+    editor contact: self contacts first.
+    editor addMessage: 'Editing...'.  &quot; &lt;-- added &quot;
+    editor onAnswer: [ :answer | self inform: 'Saved', answer printString ]</code></pre><figcaption></figcaption></figure>
+
+
+
+
+<p>
+<a id="ref:add-message"></a>
+<figure>
+	<img src="figures/AddMessage.png" width="80%" id="ref:add-message" alt="Adding a message around a component."/>
+	<figcaption>Adding a message around a component.</figcaption>
+</figure>
+</p>
+
+<p>
+Note that the <code>WAComponent&gt;&gt;addMessage:</code> returns the decoration, so you may want to also use the <code>yourself</code> message if you need to refer to the component itself:
+</p>
+<figure><pre><code>SomeComponent &gt;&gt; renderContentOn: html
+    html render: (AnotherComponent new addMessage: 'Another Component'; yourself)</code></pre><figcaption></figcaption></figure>
+
+<p>
+<strong>Window Decoration.</strong> <code>WAWindowDecoration</code> renders a border with a close widget around the component.
+</p>
+<p>
+The following example adds a window decoration to the <code>ContactView</code> component. To see it in action, use the contacts application implemented by the <code>ContactList</code> component (probably at <a href="http://localhost:8080/contacts">http://localhost:8080/contacts</a>. The result of clicking on an edit link is shown in <a href="#ref:window-decoration"></a>.
+</p>
+<figure><pre><code>ContactView &gt;&gt; initialize
+    super initialize.
+    self addDecoration: (WAFormDecoration new buttons: #(cancel save)).
+    self addDecoration: (WAWindowDecoration new title: 'Zork Contacts')</code></pre><figcaption></figcaption></figure>
+
+
+
+<p>
+<a id="ref:window-decoration"></a>
+<figure>
+	<img src="figures/WindowDecoration.png" width="80%" id="ref:window-decoration" alt="Decorating a component with a window."/>
+	<figcaption>Decorating a component with a window.</figcaption>
+</figure>
+</p>
+
+
+<p class="note">You may see that your <em>Save</em> and <em>Cancel</em> buttons are duplicated: you can remove this duplication by commenting out the <code>self renderSaveOn: html</code> line from <code>ContactView&gt;&gt;renderContentOn:</code>.</p>
+<p>
+It is much more common to add a window decoration when calling a component rather than when initializing it. The following example illustrates a common idiom that Seaside programmers use to decorate a component when calling it. It uses a decoration to open a component on a new page.
+</p>
+<figure><pre><code>WAPlugin &gt;&gt; open: aComponent
+    &quot;Replace the current page with aComponent.&quot;
+
+    WARenderLoop new
+        call: (aComponent
+            addDecoration: (WAWindowDecoration new
+                cssClass: self cssClass;
+                title: self label;
+                yourself);
+            yourself)
+        withToolFrame: false</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+<strong>Form Decoration.</strong> A  <code>WAFormDecoration</code> places its component inside an HTML form tag. The message <code>WAFormDecoration&gt;&gt;buttons:</code> should be used to specify the buttons of the form. The button specification is a list of strings or symbols where each string/symbol is the label (first letter capitalized) for a button and the name of the component callback method when button is pressed.
+</p>
+<p>
+The component that a  <code>WAFormDecoration</code> decorates must implement the method <code>WAFormDecoration&gt;&gt;defaultButton</code>, which returns the string/symbol of the default button (the one selected by default) of the form. For each string/symbol specified by the  <code>WAFormDecoration&gt;&gt;buttons:</code> method, the decorated component must implement a method of the same name, which is called when the button is selected.
+</p>
+<p class="note">Important Be sure not to place any decorators between <code>WAFormDecoration</code> and its component, otherwise the <code>defaultButton</code> message may fail.</p>
+<p>
+You can examine the source of  <code>WAFormDialog</code> and its subclasses to see the use of a FormDecoration to manage buttons:
+</p>
+<figure><pre><code>WAFormDialog &gt;&gt; addForm
+    form := WAFormDecoration new buttons: self buttons.
+    self addDecoration: form</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>WAFormDialog &gt;&gt; buttons
+    ^ #(ok)</code></pre><figcaption></figcaption></figure>
+
+<p>
+<strong>Using Decorations in the Contacts application.</strong> You can add a  <code>WAFormDecoration</code> to <code>ContactView</code> as follows: define an <code>initialize</code> method to add the decoration, and remove the superfluous rendering calls from <code>renderContentOn:</code>, to leave simpler code and an unchanged application (see <a href="#ref:form-contact"></a>).
+</p>
+<figure><pre><code>ContactView&gt;&gt;initialize
+    super initialize.
+    self addDecoration: (WAFormDecoration new buttons: #(cancel save))</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>ContactView&gt;&gt;renderContentOn: html
+    self renderNameOn: html.
+    self renderEmailOn: html.
+    self renderGenderOn: html.
+    self renderSendUpdatesOn: html.
+    self renderDateOn: html.</code></pre><figcaption></figcaption></figure>
+<p>
+We chose <code>cancel</code> and <code>save</code> as our button names since these methods were already defined in the class, but we could have used any names we wanted as long as we implemented the corresponding methods.
+</p>
+
+<p>
+<a id="ref:form-contact"></a>
+<figure>
+	<img src="figures/formContact.png" width="80%" id="ref:form-contact" alt="Using a decoration to add buttons and form to a ContactView."/>
+	<figcaption>Using a decoration to add buttons and form to a ContactView.</figcaption>
+</figure>
+</p>
+
+
+<h4>Behavioral Decorators</h4>
+
+<p>
+<strong>Validation.</strong> A <code>WAValidationDecoration</code> validates its component form data when the component returns using <code>WAComponent&gt;&gt;answer</code> or <code>WAComponent&gt;&gt;answer:</code>. This decoration can be added to a component via the method <code>WAValidationDecoration&gt;&gt;validateWith:</code> as shown below.
+</p>
+<figure><pre><code>SampleLoginComponent &gt;&gt; initialize
+    super initialize.
+    form := WAFormDecoration new buttons: self buttons.
+    self addDecoration: form.
+    self validateWith: [ :answer | answer validate ].
+    self addMessage: 'Please enter the following information'.</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+If the component returns via <code>answer:</code>, the <code>answer:</code> argument is passed to the validate block. If the component returns using <code>answer</code> the sender of <code>answer</code> is passed to the validate block.
+</p>
+<p class="todo">Talk about <code>WADelegation</code> and <code>WAAnswerHandler</code>.</p>
+<p>
+<strong>Accessing the component.</strong> To access the component when you have only a reference to its decoration you can use the message  <code>WADecoration&gt;&gt;decoratedComponent</code>.
+</p>
+<h3>Component Coupling </h3>
+
+<p>
+Here is an interesting question that often comes up when writing components, and one which we faced when embedding our components: ``How do the components communicate with each other in a way that doesn't bind them together explicitly?'' That is, how does a child component send a message to its parent component without explicitly knowing who the parent is? Designing a component to refer to its parent (as we did) is not always an ideal solution, since the interfaces of different parents may be different, and this would prevent the component from being reused in different contexts.
+</p>
+<p>
+Another approach is to adopt a solution based on explicit dependencies, also called the <em>change/update mechanism</em>. Since the early days of Smalltalk, it has provided a built-in dependency mechanism based on a change/update protocol--this mechanism is the foundation of the MVC framework itself. A component registers its interest in some event and that event triggers a notification.
+</p>
+
+<p>
+<strong>Announcements.</strong> Perhaps the most flexible and powerful approach is to use a more recent framework called <em>Announcement</em>. While the original dependency framework relied on symbols for the event registration and notification, <em>Announcement</em> promotes an object-oriented solution; i.e. events are standard objects. Originally developed by Vassili Bykov, this framework has been ported to several Smalltalk implementations, and is popular with Seaside developers. 
+</p>
+<p>
+The main idea behind the framework is to set up common announcers and to let clients register to send or receive notifications of events. An <em>event</em> is an object representing an occurrence of a specific event. It is the place to define all the information related to the event occurrence. An <em>announcer</em> is responsible for registering interested clients and announcing events. In the context of Seaside, we can define an announcer in a session. For more information on sessions see <a href=""></a>.
+</p>
+<p>
+<strong>An Example.</strong> Here is an example taken from Ramon Leon's very good Smalltalk blog (at <a href="http://onsmalltalk.com/">http://onsmalltalk.com/</a>). This example shows how we can use announcements to manage the communication between a parent component and its children as for example in the context of a menu and its menu items.
+</p>
+<p>
+First we add a reference to a new <code>Announcer</code> to our session:
+</p>
+<figure><pre><code>MySession &gt;&gt; announcer
+    ^ announcer ifNil: [ announcer := Announcer new ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+Second a subclass of an <code>Announcement</code> is created for each event of interest, here child removal:
+</p>
+<figure><pre><code>Announcement subclass: #RemoveChild
+    instanceVariableNames: 'child'
+    classVariableNames: ''
+    package: 'iAddress'</code></pre><figcaption></figcaption></figure>
+
+<p>
+Each subclass can have additional instance variables and accessors added to hold any extra information about the specific announcement such as a context, the objects involved etc. This is why announcement objects are both more powerful and simpler than using symbols.
+</p>
+<figure><pre><code>RemoveChild class &gt;&gt; child: aChild
+    ^ self new
+        child: aChild;
+        yourself</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>RemoveChild &gt;&gt; child: anChild
+    child := anChild</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>RemoveChild &gt;&gt; child
+    ^ child</code></pre><figcaption></figcaption></figure>
+<p>
+Any component interested in this announcement registers its interest by sending the announcer the message <code>on: anAnnouncementClass do: aBlock</code> or <code>on: anAnnouncementClass send: aSelector to: anObject</code>. You can also ask an announcer to <code>unsubcribe:</code> an object.
+</p>
+<p class="note">The messages <code>on:do:</code> and <code>on:send:to:</code> are strictly equivalent to the messages <code>subscribe: anAnnouncementClass do: aValuable</code> (an object understanding <code>value</code>) and <code>subscribe: anAnnouncementClass send: aSelector to: anObject</code>. </p>
+<p>
+In the following example, when a parent component is created, it expresses interest in the <code>RemoveChild</code> event and specifies the action that it will perform when such an event happens.
+</p>
+
+<figure><pre><code>Parent &gt;&gt; initialize
+    super initialize.
+    self session announcer on: RemoveChild do: [:it | self removeChild: it child]</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>Parent &gt;&gt; removeChild: aChild
+    self children remove: aChild</code></pre><figcaption></figcaption></figure>
+
+<p>
+And any component that wants to fire this event simply announces it by sending in an instance of that custom announcement object:
+</p>
+<figure><pre><code>Child &gt;&gt; removeMe
+    self session announcer announce: (RemoveChild child: self)</code></pre><figcaption></figcaption></figure>
+
+<p class="note">advanced Note that depending on where you place the announcer, you can even have different sessions sending events to each other, or different applications.</p>
+<p>
+<strong>Pros and cons.</strong> Announcements are not always the best way to establish communication between components and you have to decide the exact design you want. On one hand, announcements let you create loosely coupled components and thus maximize reusability. On the other hand, they introduce additional complexity when you may be able solve your communication problem with a simple message send.
+</p>
+<h3>Summary</h3>
+
+<p>
+In this chapter we have seen how to embed components to build up complex functionality. In particular, we have learned:
+</p>
+<ul>
+<li>To embed a component in another one, the parent component should just answer the component as one of its children. Its <code>children</code> method should return the direct children components.</li>
+<li>Each component may render its immediate children in its own render method by calling various methods and possibly the <code>render:</code> method.</li>
+<li>A component may be reused with decorations. Decorations are components which add visual aspects or change component behavior.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  </section>
+
+</article>
+
+<footer>
+
+<div class="footline">
+    <div class="github-link">
+      <a href="" target="blank"><i class="fa fa-code-fork"></i>Github</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/clipboard.min.js"></script>
+
+
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/styles/default.css">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/highlight-commands.css">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/featherlight.min.css" rel="stylesheet">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/featherlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/flex.js"></script>
+<!-- Prettify annotated paragraphs-->
+    <script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/annotated-paragraphs.js"></script>
+
+  </body>
+</html>

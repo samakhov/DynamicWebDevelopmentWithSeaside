@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pharo Book</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/font-awesome.min.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/nucleus.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/flex.css" rel="stylesheet">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/bootstrap.min.css">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/jquery-2.x.min.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/highlight.pack.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/highlight-commands.js"></script>
+<meta name="description" content="">
+<meta name="author" content="Stéphane Ducasse \ (based on S. Ducasse, D.C. Shaffer, L. Renggli, and R. Zaccone)">
+  </head>
+  <body>
+    <header>
+  <div class="logo">
+    <a class="baselink" href="/DynamicWebDevelopmentWithSeaside/">Pharo Book</a>
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+   		<li data-nav-id="123" class="dd-item">
+    		<a href="/DynamicWebDevelopmentWithSeaside">
+		       <i class="fa fa-fw fa-home"></i>
+	    	</a>
+        </li>
+
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#getting started">
+					Getting Started
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#getting started in gemstone/s">
+							Getting Started in Gemstone/S
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#using the glass virtual appliance">Using the GLASS Virtual Appliance</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#a first seaside component">A first Seaside Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining a component">Defining a Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining some methods">Defining Some Methods</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#rendering a counter">Rendering a Counter</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#registering the application">Registering the application</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#adding behavior">Adding Behavior</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#keeping up with the latest features">Keeping Up with the Latest Features</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#gemstone version">
+							Gemstone version
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#fundamentals">
+					Fundamentals
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#using components">
+					Using Components
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#seaside in action">
+					Seaside in Action
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#wish list of new chapter">
+							Wish list of new chapter
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#willow?">Willow?</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#bootstrap">Bootstrap</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mdl">MDL</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mustaside">Mustaside</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#websockets">WebSockets</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+    </ul>
+  </aside>
+
+  <section class="page">
+    
+	<h1>Dynamic Web Development with Seaside</h1>
+		
+	<h2>JQuery</h2>
+
+<p>
+<a href="http://jquery.com">jQuery</a> is one of the most popular open-source JavaScript frameworks today. jQuery was created by John Resig and focuses on simplifying HTML document traversing, event handling, animating, and AJAX interactions for rapid web development.
+</p>
+<p>
+There is a huge collection of <a href="http://plugins.jquery.com/">plugins</a> available that extend the base framework with new functionality. One of the most popular of these plugins is <a href="http://jqueryui.com/">jQuery UI</a>. It provides additional abstractions over low-level interaction and animation, advanced effects and high-level themeable widgets for building highly interactive web applications.
+</p>
+<p>
+jQuery and jQuery UI are both well integrated into Seaside 3.0. This allows you to access all aspects of the library from Smalltalk by writing Smalltalk code only. The Pharo side of the integration is automatically built from the excellent <a href="http://docs.jquery.com">jQuery documentation - http://docs.jquery.com</a>, so you can be sure that the integration is up-to-date and feature-complete. 
+</p>
+<p>
+<a id="fig:functional"></a>
+<figure>
+	<img src="figures/functional-tests.png" width="80%" id="fig:functional" alt="jQuery Demo and Functional Test Suite."/>
+	<figcaption>jQuery Demo and Functional Test Suite.</figcaption>
+</figure>
+</p>
+<h3>Getting Ready</h3>
+
+<p>
+Make sure to have the packages Javascript-Core, JQuery-Core and JQuery-UI-Core loaded. For examples and functional tests also load the test packages Javascript-Tests-Core, JQuery-Tests-Core and JQuery-Tests-UI.
+</p>
+<p>
+To use the libraries in your applications, you will need to load them in the Seaside web configuration application. You will notice that the core JQuery and JQueryUI libraries come in three forms which may be installed interchangeably. The <code>Development</code> versions have the full human-readable Javascript, and so are ideal for inspection and debugging during development; the <code>Deployment</code> versions are minified and gzipped to about 1/10th of the size of the development libraries, and so are much faster-loading for end users; and the <code>Google</code> versions link to copies of the libraries hosted by Google -- as many sites reference these versions, your users may already have them cached, and so these can be the fastest loading versions.
+</p>
+<table style="border: solid thin"><tr><td style="text-align: left"><code>JQDevelopmentLibrary</code></td>
+<td style="text-align: left">JQuery</td>
+<td>Full</td>
+</tr>
+<tr><td><code>JQDeploymentLibrary</code></td>
+<td>JQuery</td>
+<td>Compressed</td>
+</tr>
+<tr><td><code>JQGoogleLibrary</code></td>
+<td>JQuery</td>
+<td>Google</td>
+</tr>
+<tr><td><code>JQUiDevelopmentLibrary</code></td>
+<td>JQuery UI</td>
+<td>Full</td>
+</tr>
+<tr><td><code>JQUiDeploymentLibrary</code></td>
+<td>JQuery UI</td>
+<td>Compressed</td>
+</tr>
+<tr><td><code>JQUiGoogleLibrary</code></td>
+<td>JQuery UI</td>
+<td>Google</td>
+</tr>
+</table>
+
+<p class="advanced">For many of the most popular jQuery plugins there are ready-made Smalltalk wrappers in the Project <a href="http://www.squeaksource.com/JQueryWidgetBox">JQueryWidgetBox</a> on SqueakSource available.</p>
+<h3>JQuery Basics</h3>
+
+<p>
+jQuery has a simple but powerful model for its interactions. It always follows the same pattern depicted in Figure <a href="#fig:jquery-lifecycle"></a>. You basically get aJQuery and configure it, navigate its elements and activate it. 
+</p>
+<p>
+<a id="fig:jquery-lifecycle"></a>
+<figure>
+	<img src="figures/jquery-lifecycle.png" width="80%" id="fig:jquery-lifecycle" alt="jQuery Lifecycle."/>
+	<figcaption>jQuery Lifecycle.</figcaption>
+</figure>
+</p>
+<p>
+To instantiate a <code>JQueryClass</code>, you ask a factory object for a new instance by sending the message <code>jQuery</code>. In most cases the factory object is your <code>WAHtmlCanvas</code>, but it can also be a <code>JSScript</code>.
+</p>
+<figure><pre><code>html jQuery</code></pre><figcaption></figcaption></figure>
+
+<p>
+While the <code>JQueryClass</code> is conceptually a Javascript class, it is implemented as a Pharo instance. <code>html jQuery</code> returns an instance of  <code>JQueryClass</code>.
+</p>
+<h4>Creating Queries</h4>
+<p>
+To create a <code>JQueryInstance</code>, we specify a CSS selector that queries for certain DOM elements on the your web-page. For example, to select all HTML div tags with the CSS class <code>special</code> one would write:
+</p>
+<figure><pre><code>html jQuery expression: 'div.special'</code></pre><figcaption></figcaption></figure>
+
+<p>
+This expression returns a <code>JQueryInstance</code> object that represents all HTML tags matching the given CSS query <code>div.special</code>. There is also a slightly shorter form that does exactly the same:
+</p>
+<figure><pre><code>html jQuery: 'div.special'</code></pre><figcaption></figcaption></figure>
+
+<p>
+You find more details on creating queries in Section <a href="#ref:creating-queries"></a>.
+</p>
+<h4>Refining Queries</h4>
+
+<p>
+If you browse the class <code>JQueryInstance</code>, you will see that you can add more elements or filter out elements before applying the jQuery action. For example, to select the siblings of the currently selected elements you would write:
+</p>
+<figure><pre><code>(html jQuery: 'div.special') siblings</code></pre><figcaption></figcaption></figure>
+
+<p>
+You find more details on refining queries in Section <a href="#ref:refining-queries"></a>.
+</p>
+<h4>Performing Actions</h4>
+
+<p>
+Once you have identified the elements, you can specify the actions you wish to perform. These actions can delete, move, transform, animate or change the contents of the element. For example, to remove the elements we selected earlier we write:
+</p>
+<figure><pre><code>(html jQuery: 'div.special') siblings; remove</code></pre><figcaption></figcaption></figure>
+
+<p>
+There are over 180 actions provided by jQuery; these can be investigated by browsing the <code>JQueryInstance</code> Pharo class, and by visiting the jQuery documentation at <a href="http://api.jquery.com/">http://api.jquery.com/</a>.
+</p>
+<p>
+You find more details on performing actions in Section <a href="#ref:performing-actions"></a>.
+</p>
+<h3>Creating Queries</h3>
+<a id="ref:creating-queries"></a>
+<p>
+If you've already used jQuery (or followed the link to the documentation), you will already be familiar with the <code>$()</code> syntax for specifying CSS queries to select DOM elements. <code>JQueryClass&gt;&gt;expression:</code> exposes this same interface, but there are also a number of shortcut forms available to you. All the constructor methods return an instance of <code>JQueryInstance</code>.
+</p>
+<h4>$(&quot;div.hint&quot;)</h4>
+<p>
+Normally a jQuery instance is setup with a CSS selector. You can either use the long form (1) or take the shortcut (2). Of course, both forms are absolutely equivalent, in practice you will mostly encounter the shorter second form:
+</p>
+<figure><pre><code>html jQuery expression: 'div.hint'.      &quot;(1)&quot;
+html jQuery: 'div.hint'.                 &quot;(2)&quot;</code></pre><figcaption></figcaption></figure>
+
+<h4>$(&quot;#foo&quot;)</h4>
+
+<p>
+Often you want to create a query with an element ID. Again we have different possibilities to instantiate that query. (1) and (3) use a normal CSS selector for element IDs. (2) uses the <code>id:</code> selector, and (4) uses a shortcut using a symbol. Note that the forth form only works for symbols, if you pass a string it will be interpreted as a CSS selector.
+</p>
+<figure><pre><code>html jQuery expression: '#foo'.          &quot;(1)&quot;
+html jQuery id: 'foo'.                   &quot;(2)&quot;
+html jQuery: '#foo'.                     &quot;(3)&quot;
+html jQuery: #foo.                       &quot;(4)&quot;</code></pre><figcaption></figcaption></figure>
+
+<h4>$(&quot;*&quot;)</h4>
+
+<p>
+The CSS selector to match all elements in the page is <code>*</code>. Again you have several equivalent possibilities to achieve the same in jQuery. The first two use a CSS selector, while the last one uses a convenience method:
+</p>
+<figure><pre><code>html jQuery expression: '*'.
+html jQuery: '*'.
+html jQuery all.</code></pre><figcaption></figcaption></figure>
+
+<h4>$(this)</h4>
+
+<p>
+If you want to refer to the  currently active DOM element from an event handler you can use <code>new</code> or <code>this</code>. 
+</p>
+<figure><pre><code>html jQuery this.
+html jQuery new.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Note that the <code>new</code> you call here is not the one implemented in the Smalltalk class <code>Behavior</code>, but a custom one implemented on the instance side of <code>JQueryClass</code>. Similar to all other constructor methods it returns an instance of <code>JQueryInstance</code>.
+</p>
+<h4>$(&quot;&lt;div&gt;&lt;/div&gt;&quot;)</h4>
+
+<p>
+Furthermore, jQuery provides the possibility to create new HTML code on the fly, that inserted into an existing element. Again we have different equivalent possibilities to do this. The first one uses a raw HTML string, with Seaside we want to avoid this in most cases. The second and third variation uses a block with a new renderer that we can use with the normal Seaside rendering API.
+</p>
+<figure><pre><code>html jQuery expression: '&lt;div&gt;&lt;/div&gt;'.
+html jQuery html: [ :r | r div ].
+html jQuery: [ :r | r div ].</code></pre><figcaption></figcaption></figure>
+
+<h4>$(function() { alert('Hello'); })</h4>
+
+<p>
+Last but not least there is the case of the <code>$()</code> syntax allows you to specify some action that should happen once the page is ready. This is done by attaching
+</p>
+<figure><pre><code>html jQuery ready: (html javascript alert: 'Hello').
+html jQuery: (html javascript alert: 'Hello').</code></pre><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+<h3>Refining Queries</h3>
+<a id="ref:refining-queries"></a>
+<p>
+After you made an initial query you can refine the result with additional operations. All existing operations are described in this section:
+</p>
+<h4>Siblings</h4>
+<p>
+Get a set of elements containing all of the unique siblings of each of the matched set of elements.
+</p>
+<figure><pre><code>aQuery siblings.
+aQuery siblings: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<h4>Next Siblings</h4>
+<p>
+Get a set of elements containing the unique next siblings of each of the given set of elements.
+</p>
+<figure><pre><code>aQuery next.
+aQuery next: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Or, find all sibling elements after the current element.
+</p>
+<figure><pre><code>aQuery nextAll.
+aQuery nextAll: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Or, find all following siblings of each element up to but not including the element matched by the selector.
+</p>
+<figure><pre><code>aQuery nextUntil: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<h4>Previous Siblings</h4>
+
+<p>
+Get a set of elements containing the unique previous siblings of each of the matched set of elements.
+</p>
+<figure><pre><code>aQuery previous.
+aQuery previous: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Or, find all sibling elements in front of the current element.
+</p>
+<figure><pre><code>aQuery previousAll.
+aQuery previousAll: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Or, find all previous siblings of each element up to but not including the element matched by the selector.
+</p>
+<figure><pre><code>aQuery previousUntil: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<h4>Children</h4>
+
+<p>
+Get a set of elements containing all of the unique immediate children of each of the matched set of elements.
+</p>
+<figure><pre><code>aQuery children.
+aQuery children: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Find all the child nodes inside the matched elements (including text nodes), or the content document, if the element is an iframe.
+</p>
+<figure><pre><code>aQuery contents.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Searches for all elements that match the specified expression.
+</p>
+<figure><pre><code>aQuery find: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<h4>Parents</h4>
+
+<p>
+Get a set of elements containing the unique parents of the matched set of elements.
+</p>
+<figure><pre><code>aQuery parent.
+aQuery parent: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Or, find all following siblings of each element up to but not including the element matched by the selector.
+</p>
+<figure><pre><code>aQuery parents.
+aQuery parents: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Or, find all the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector.
+</p>
+<figure><pre><code>aQuery parentsUntil: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Get a set of elements containing the closest parent element that matches the specified selector, the starting element included.
+</p>
+<figure><pre><code>aQuery closest.
+aQuery closest: 'div'.</code></pre><figcaption></figcaption></figure>
+
+<h3>Performing Actions </h3>
+<a id="ref:performing-actions"></a>
+<p>
+There is a wide variety of actions that come supported with jQuery. jQuery UI and thousands of other plugins add even more. In this section we present some of the most common actions provided by the core framework.
+</p>
+<h4>Classes</h4>
+
+<p>
+The following examples add, remove or toggle the CSS class <code>important</code> given as the first argument. These methods are commonly used to change the appearance of one or more HTML elements for example to visualize a state change in the application.
+</p>
+<figure><pre><code>aQuery addClass: 'important'.
+aQuery removeClass: 'important'.
+aQuery toggleClass: 'important'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Also you can query if a particular class is set:
+</p>
+<figure><pre><code>aQuery hasClass: 'important'.</code></pre><figcaption></figcaption></figure>
+
+
+<h4>Styles</h4>
+
+<p>
+Similarly you can change the style of one or more HTML elements. By providing a dictionary you can change multiple CSS styles at once:
+</p>
+<figure><pre><code>aQuery css: aDictionary.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Alternatively you can use a dictionary-like protocol to read and write specific style properties:
+</p>
+<figure><pre><code>aQuery cssAt: 'color'.
+aQuery cssAt: 'color' put: '#ff0'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Note that in most cases it is preferred to use CSS classes instead of hardcoding your style settings into the application code.
+</p>
+<h4>Attributes</h4>
+
+<p>
+While the above methods change the <code>class</code> and <code>style</code> attribute of one or more DOM elements, there are also accessor methods to change arbitrary HTML attributes. By providing a dictionary of key-value pairs you can change multiple attributes at once:
+</p>
+<figure><pre><code>aQuery attributes: aDictionary.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Alternatively you can use a dictionary-like protocol to read and write attributes:
+</p>
+<figure><pre><code>aQuery attributeAt: 'href'.
+aQuery attributeAt: 'href' put: 'http://www.seaside.st/'.</code></pre><figcaption></figcaption></figure>
+
+<h4>Replace Contents</h4>
+
+<p>
+A common operation on DOM elements is to change their contents, for example to update a view or to display additional information. To set the HTML contents of matched elements you can use the following construct that will replace the contents with <code>&lt;div&gt;&lt;/div&gt;</code>:
+</p>
+<figure><pre><code>aQuery html: [ :r | r div ].</code></pre><figcaption></figcaption></figure>
+
+<p>
+Alternatively you can set the text contents of each element in the set of matched elements:
+</p>
+<figure><pre><code>aQuery text: 'some text'.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Last but not least you can set the value. This is especially useful for form fields, that require different ways to set the current contents (input fields require you to change the attribute value, text areas require you to change the contents). The following code takes care of the details automatically:
+</p>
+<figure><pre><code>aQuery value: 'some value'.</code></pre><figcaption></figcaption></figure>
+
+<h4>Insert Contents</h4>
+
+<p>
+Alternatively to replacing the contents you can append new contents. <code>before:</code> inserts content before each element in the set of matched elements; <code>prepend:</code> inserts content to the beginning of each element in the set of matched elements; <code>append:</code> inserts  content to the end of each element in the set of matched elements; and <code>after:</code> inserts content after each element in the set of matched elements.
+</p>
+
+<figure><pre><code>aQuery before: [ :r | r div ].
+aQuery prepend: [ :r | r div ].
+aQuery append: [ :r | r div ].
+aQuery after: [ :r | r div ].</code></pre><figcaption></figcaption></figure>
+
+<p>
+Note that, as with <code>html:</code>, the argument can be any renderable object: a string, a Seaside component, or a render block as in the given examples.
+</p>
+<h4>Animations</h4>
+
+<p>
+Showing or hiding DOM elements is one of the most common operations. While this is typically done by adding or removing a CSS class, jQuery provides a simpler way. The action <code>show</code> makes sure that the matching DOM elements are visible. If a duration is given as a first parameter, the elements are faded-in:
+</p>
+<figure><pre><code>aQuery show.
+aQuery show: 1 second.</code></pre><figcaption></figcaption></figure>
+
+<p>
+The same functionality is available to hide one or more DOM elements with <code>hide</code>:
+</p>
+<figure><pre><code>aQuery hide.
+aQuery hide: 1 second.</code></pre><figcaption></figcaption></figure>
+
+<h3>Adding JQuery</h3>
+
+<p>
+After creating a jQuery object on the Pharo side, it is time to investigate on how to add them to the Seaside application.
+</p>
+<p>
+The standard way of doing so in jQuery is to keep all the Javascript functionality <em>unobtrusive</em> in a separate Javascript file. This is possible with Seaside, but not the suggested way. In Seaside we try to encapsulate views and view-related functionality in components. Furthermore we keep components independent of each other and reusable in different contexts, what does not work well with sharing unobtrusive Javascript code. Additionally, the unobtrusiveness comes into the way when we want to define AJAX interactions.
+</p>
+<h4>Attaching to Element</h4>
+
+<p>
+The following scripts show how a query can be attached to an anchor and activated. 
+</p>
+<figure><pre><code>html anchor
+    onClick: (html jQuery: 'div') remove;
+    with: 'Remove DIVs'</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>html anchor
+    onClick: (html jQuery this) remove;
+    with: 'Remove Myself'</code></pre><figcaption></figcaption></figure>
+
+<h4>Execute at Load-Time</h4>
+
+<p>
+Javascript proposes a way to execute a query at load-time using <code>$(document).ready(...)</code>.
+With Seaside, you can forget about <code>$(document).ready(...)</code>, since Seaside has its own mechanism there. 
+</p>
+<figure><pre><code>html document addLoadScript: (html jQuery: 'div') remove</code></pre><figcaption></figcaption></figure>
+
+<h3>AJAX</h3>
+
+<p>
+AJAX is an acronym for <em>Asynchronous JavaScript and XML</em>. The fact that it is asynchronous means that additional data is passed to, or requested from the web server in the background, without the user waiting for it to arrive. JavaScript obviously names the programming language that is used to trigger the request. Fortunately the data being transmitted by an AJAX request doesn't have to be in XML. It can be anything that can be sent through the HTTP protocol. The reason for the ``XML'' in the name is that in most web browsers the internal implementation of this functionality can be found in an object called <code>XMLHttpRequest</code>. JQuery also supports the AJAX.
+</p>
+<h4>Loading</h4>
+
+<figure><pre><code>aQuery load html: [ :r | r div: Time now ].</code></pre><figcaption></figcaption></figure>
+
+<h4>No Query</h4>
+<p>
+Once loaded we can get an AJAX object using <code>ajax</code> query.
+</p>
+<figure><pre><code>html jQuery ajax</code></pre><figcaption></figcaption></figure>
+
+<h4>Generators</h4>
+
+<p>
+An AJAX object can be configure to emit either html or script using the corresponding messages:
+</p><figure><pre><code>anAjax html: [ :r | r div ].
+anAjax script: [ :s | s alert: 'Hello' ].</code></pre><figcaption></figcaption></figure>
+
+<h4>Triggering Callbacks</h4>
+
+<p>
+Finally a query can be stored and triggered later.
+</p>
+<figure><pre><code>anAjax serialize: aQuery.
+anAjax trigger: [ :p | ... ] passengers: aQuery.
+anAjax callback: [ :v | ... ] value: anObject.</code></pre><figcaption></figcaption></figure>
+
+<h3>How tos </h3>
+
+<p>
+The following shows a list of possible actions
+</p>
+<h4>Click and Show</h4>
+
+<p>
+The following shows how to toggle a given div (here help) on click. 
+</p>
+<figure><pre><code>html anchor
+     onClick: (html jQuery: 'div.help') toggle;
+     with: 'About jQuery'.
+ 
+html div
+    class: 'help';
+    style: 'display: none';
+    with: 'jQuery is a fast and ...'</code></pre><figcaption></figcaption></figure>
+<p>
+ 
+</p><h4>Open Light box</h4>
+<p>
+In the following we show how we can open a modal dialog box. 
+</p>
+<figure><pre><code>| id |
+html div
+    id: (id := html nextId);
+    script: (html jQuery new dialog
+         title: 'Lightbox Dialog';
+         modal: true);
+     with: [ self renderDialogOn: html ]
+html anchor
+     onClick: (html jQuery id: id) dialog open;
+     with: 'Open Lightbox'</code></pre><figcaption></figcaption></figure>
+
+<h4>Replace a Component</h4>
+<p>
+In the following we show how to replace a component by a new one. 
+</p>
+<figure><pre><code>html div
+     id: (id := html nextId);
+     with: child.
+
+html anchor
+     onClick: ((html jQuery id: id) load
+         html: [ :r | 
+             child := OtherComponent new;
+             r render: child ]);
+     with: 'Change Component'</code></pre><figcaption></figcaption></figure>
+
+<h4>Updating multiple components</h4>
+<p>
+The following snippet shows how we can update multiple element of the DOM. 
+Here we have two components date and time. In the script we will render each component
+on click. 
+</p>
+<figure><pre><code>html div id: #date.
+...
+html div id: #time.
+
+html anchor
+    onClick: (html jQuery ajax script: [ :s |
+        s &lt;&lt; (s jQuery: #date)
+             html: [ :r | r render: Date today ].
+        s &lt;&lt; (s jQuery: #time)
+             html: [ :r | r render: Time now ] ]);
+     with: 'Update'</code></pre><figcaption></figcaption></figure>
+
+<h3>Enhanced To Do Application</h3>
+<p>
+jQuery is an increasingly popular Javascript library. Let’s port the the ToDo application to use jQuery for the Javascript functionality.
+</p>
+<p>
+First, we’ll implement the heading highlight effect with jQuery UI. Then we’ll move on to implementing a couple of interesting effects and eye-candy possible with jQuery. Drag and drop is easy to implement, but we’ll need to do something special to get the &quot;in place&quot; editing to work in jQuery.
+</p>
+<p>
+If you have already worked through enhancing the ToDo application with Prototype and Scriptaculous, then the jQuery version will seem very familiar - we are still working with JavaScript underneath the covers after all.
+</p>
+<h4>Adding an Effect</h4>
+
+<p>
+We’ll go ahead and factor the <code>renderContentOn:</code> method to add a method to handle rendering the heading and just make modifications to the new method.
+</p>
+
+<figure><pre><code>ToDoListView &gt;&gt; renderContentOn: html
+    self renderHeadingOn: html.    &quot;&lt;-- added.&quot; 
+    html form: [
+        html unorderedList
+            id: 'items';
+            with: [ self renderItemsOn: html ].
+        html submitButton
+            text: 'Save'.
+        html submitButton
+            callback: [ self add ];
+            text: 'Add' ].
+    html render: editor</code></pre><figcaption></figcaption></figure>
+
+<p>
+The <code>renderHeadingOn:</code> method leverages the jQuery UI library to add the highlight effect to the header of our component.
+</p>
+<figure><pre><code>ToDoListView &gt;&gt; renderHeadingOn: html
+    html heading
+        onClick: html jQuery this effect highlight;
+        with: self model title.</code></pre><figcaption></figcaption></figure>
+<p>
+	
+We create a query using <code>html jQuery this</code> that selects the heading DOM element. Next we send effect to get a <code>JQEffect</code> instance. Then finally we send <code>JQEffect&gt;&gt;highlight</code> which highligths the background color.
+</p>
+<p>
+Altering the highlight color is left as an exercise for the reader.
+</p>
+<p>
+Now for something a little more fun - let’s add some help test that appears when you click on the heading; and it won’t just &quot;appear&quot;, it will slide open at a rate that we determine.
+</p>
+<p>
+We do this by rendering a new <code>&lt;div&gt;</code> element that contains the help text, and changing the onClick of the header to apply our new cool effect to the new element. We also need some new CSS to help us out with this.
+</p>
+<figure><pre><code>ToDoListView &gt;&gt; renderHeadingOn: html
+    | helpId |
+    helpId := html nextId.
+    (html heading)
+        class: 'helplink';
+        onClick: ((html jQuery id: helpId)
+            slideToggle: 1 seconds);
+        with: self model title.
+    (html div)
+        id: helpId;
+        class: 'help';
+        style: 'display: none';
+        with: 'The ToDo app enhanced with jQuery.'</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>ToDoListView &gt;&gt; style
+	^ '
+	.help {
+	    padding: 1em;
+	    margin-bottom: 1em;
+	    border: 1px solid #008aff;
+	    background-color: #e6f4ff;
+	}
+	.helplink {
+	    cursor: help;
+	}
+
+	body {
+	    color: #222;
+	    font-size: 75%;
+	    font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+	}
+	h1 {
+	    color: #111;
+	    font-size: 2em;
+	    font-weight: normal;
+	    margin-bottom: 0.5em;
+	}
+	ul {
+	    list-style: none;
+	    padding-left: 0;
+	    margin-bottom: 1em;
+	}
+	li.overdue {
+	    color: #8a1f11;
+	}
+	li.done {
+	    color: #264409;
+	}'</code></pre><figcaption></figcaption></figure>
+
+<h3>Summary</h3>
+
+<p>
+This chapter showed how Seaside can interact with Javascript. 
+It opens a large spectrum of possibilities.
+</p>
+
+
+  </section>
+
+</article>
+
+<footer>
+
+<div class="footline">
+    <div class="github-link">
+      <a href="" target="blank"><i class="fa fa-code-fork"></i>Github</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/clipboard.min.js"></script>
+
+
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/styles/default.css">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/highlight-commands.css">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/featherlight.min.css" rel="stylesheet">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/featherlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/flex.js"></script>
+<!-- Prettify annotated paragraphs-->
+    <script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/annotated-paragraphs.js"></script>
+
+  </body>
+</html>

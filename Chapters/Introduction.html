@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pharo Book</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/font-awesome.min.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/nucleus.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/flex.css" rel="stylesheet">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/bootstrap.min.css">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/jquery-2.x.min.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/highlight.pack.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/highlight-commands.js"></script>
+<meta name="description" content="">
+<meta name="author" content="Stéphane Ducasse \ (based on S. Ducasse, D.C. Shaffer, L. Renggli, and R. Zaccone)">
+  </head>
+  <body>
+    <header>
+  <div class="logo">
+    <a class="baselink" href="/DynamicWebDevelopmentWithSeaside/">Pharo Book</a>
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+   		<li data-nav-id="123" class="dd-item">
+    		<a href="/DynamicWebDevelopmentWithSeaside">
+		       <i class="fa fa-fw fa-home"></i>
+	    	</a>
+        </li>
+
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#getting started">
+					Getting Started
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#getting started in gemstone/s">
+							Getting Started in Gemstone/S
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#using the glass virtual appliance">Using the GLASS Virtual Appliance</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#a first seaside component">A first Seaside Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining a component">Defining a Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining some methods">Defining Some Methods</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#rendering a counter">Rendering a Counter</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#registering the application">Registering the application</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#adding behavior">Adding Behavior</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#keeping up with the latest features">Keeping Up with the Latest Features</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#gemstone version">
+							Gemstone version
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#fundamentals">
+					Fundamentals
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#using components">
+					Using Components
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#seaside in action">
+					Seaside in Action
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#wish list of new chapter">
+							Wish list of new chapter
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#willow?">Willow?</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#bootstrap">Bootstrap</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mdl">MDL</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mustaside">Mustaside</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#websockets">WebSockets</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+    </ul>
+  </aside>
+
+  <section class="page">
+    
+	<h1>Dynamic Web Development with Seaside</h1>
+		
+	<h2>Introduction</h2>
+<a id="sec:introduction"></a>
+<p>
+Seaside is an excellent framework for easily developing advanced and dynamic web
+applications. Seaside lets you create reusable components that you can freely
+compose using Pharo --- a simple and pure object-oriented language.
+</p>
+<p>
+Seaside offers a powerful callback mechanism that lets you trigger code snippets
+when the users clicks on a link. With Seaside, you can debug your web
+application with a powerful dynamic debugger and modify the code on the fly
+while your server is running. This makes the development of complex dynamic
+applications smooth and fast.
+</p>
+<p>
+With Seaside, you have the time to focus on your design and solutions to your
+problems. In this chapter, we give an overview of Seaside and present some
+Smalltalk basics to help you to follow along with the book. In the next chapter,
+we will show you how you can program your first Seaside component in just 15
+minutes.
+</p>
+
+<h3>What is Seaside?</h3>
+
+<p>
+Seaside is a free, open-source framework to build powerful and dynamic web applications. The developer can use and extend these classes to produce highly dynamic web-based <em>applications</em>. By applications, we mean real applications with potentially complex workflows and user interactions, in contrast to just collections of static pages. Seaside makes web development simpler and can help you build
+applications that are cleaner and easier to maintain because it has:
+</p>
+<ul>
+<li>a solid component model and callbacks,</li>
+<li>support for sequencing interactions,</li>
+<li>powerful Pharo debugging interface, and</li>
+<li>support for using AJAX and other Web 2.0 technologies such as REST and websockets.</li>
+</ul>
+
+<p>
+Seaside applications are based on the composition of independent components.
+Each component is responsible for its rendering, its state, and its own control
+flow. Seaside enables you to freely compose such components, creating advanced
+and dynamic applications comparable to widget libraries such as Swing or
+Morphic. What is really powerful is that the control flow of an application is
+written in plain Pharo code.
+</p>
+<h4>A bit of history</h4>
+<p>
+Seaside was originally created by Avi Bryant and Julian Fitzell. It is mature frameworks used by several companies worldwide.
+</p>
+<h4>Features</h4>
+<p>
+Seaside is often described as a <em>heretic web framework</em> because by design it
+went against what is currently considered best practice for web development --
+such as using templates or clean, carefully chosen, meaningful URLs. Seaside
+does not follow REST (Representational State Transfer) by default. Instead, URLs
+hold session key information, and meaningful URLs have to be generated
+explicitly, if needed. Seaside also offers a smooth integration and let you expose 
+functionality via REST. So you can get the best of both worlds.
+</p>
+<p>
+When using a template system (PHP, JSP, ASP, ColdFusion, and so on), the logic
+is scattered across many files, which makes the application hard to maintain.
+Reuse, if possible at all, is often based on copying files. The philosophy of
+the template approach is to separate the responsibilities of designers and
+programmers. This is a good idea that Seaside also embraces. Seaside encourages
+the developer to use CSS to describe the visual appearance of a component, but
+it does not use a templating engine, and encourages developers to
+programmatically generate meaningful and valid XHTML markup.
+</p>
+<p>
+Seaside is easy to learn and use. By comparison, JSF (JavaServer Faces) requires
+you to use and understand several technologies such as Servlets, XML, JSP,
+navigation configuration in <code>faces.config</code> files, and so on. In Seaside, you
+only need to know Pharo, which is more compact and easier to learn than
+Java. Furthermore, it is good to know some basics about CSS. Seaside lets you to
+concentrate on the problem at hand and not on integrating technologies. Seaside
+ensures that you always generate valid XHTML and that all your code is in
+Pharo.
+</p>
+<p>
+Now you can also mix Javascript code within Seaside. You can also use different libraries such as Bootstrap, MDL and take advantage of Websockets and others systems such Mustache. 
+</p>
+<h4>Summary</h4>
+<p>
+In summary, several aspects of Seaside's design differ from most mainstream web
+application frameworks. In Seaside
+</p>
+<ul>
+<li>Session state is maintained on the server.</li>
+<li>HTML is generated completely in Smalltalk. There are no templates or &quot;server pages&quot;, although it isn't hard to build such things in Seaside.</li>
+<li>You use callbacks for anchors and buttons, rather than loosely coupled page references and request IDs.</li>
+<li>You use plain Smalltalk to define the flow of your application. You do not need a dedicated language or XML configuration files.</li>
+</ul>
+
+<p>
+Combined, these features make working with Seaside much like writing a desktop
+GUI application. Actually, in some ways it is simpler, since the web browser
+takes a lot of the application details out of your hands.
+</p>
+<p>
+The next section lists some real-world Seaside applications that you can browse
+to understand the kind of applications you can build with Seaside. Each of these
+applications allows complex interaction with the user, rather than a simple
+collection of pages.
+</p>
+
+<h3>Some Seaside Applications</h3>
+<p>
+With Seaside, you will be able to build any kind of web application. You can see
+some Seaside applications running on the web. You can find more information at
+<a href="http://www.pharo.org/success">http://www.pharo.org/success</a>. Seaside is used in many
+intranet web applications, that are often not readily visible without going
+behind the scenes.
+</p>
+<p>
+We have selected two Seaside examples from the publicly available projects. Have
+a look at them to see the kind of interaction and application flow that can be
+built with Seaside.
+</p>
+<dl><dt><strong>Yesplan</strong> (<a href="http://www.yesplan.be/">http://www.yesplan.be</a>)</dt>
+<dd>Yesplan is a collaborative event planning web application. A video on the website shows a nice summary of the application. The user interaction and smooth application flow is really striking and a good illustration of the power of Seaside to build complex applications.</dd>
+</dl>
+
+<dl><dt><strong>Cmsbox</strong> (<a href="http://www.cmsbox.ch/">http://www.cmsbox.ch</a>)</dt>
+<dd>An AJAX-based content management system designed for usability. Here the navigation is more the kind we expect from a web application.</dd>
+</dl>
+
+<dl><dt><strong>allstocker</strong> (<a href="http://www.allstocker.jp/">http://www.allstocker.jp</a>)</dt>
+<dd>Applications to support the rent of machines. The architecture is explained</dd>
+</dl>
+<p>
+in the blogpost xxx available from <a href="http://pharoweekly.wordpress.com">http://pharoweekly.wordpress.com</a>
+</p>
+<p>
+There are also several open-source projects based on Seaside; we list two interesting ones, since you may use them when going through the book.
+</p>
+<dl><dt><strong>Pier</strong> (<a href="http://www.piercms.com/">http://www.piercms.com</a>)</dt>
+<dd>Pier is a kind of meta content management system into which a Seaside application can be plugged. Pier is the second generation of an industrial strength content application management system. It is based on Magritte, a powerful meta-description framework. Pier enables easy composition and configuration of interactive web sites with new and ready-made Seaside application or components through a convenient web interface without having to write code. The Seaside website is based on Pier, as is the online version of this book.</dd>
+</dl>
+
+<dl><dt><strong>SqueakSource</strong> (<a href="http://www.squeaksource.com/">http://www.squeaksource.com</a>)</dt>
+<dd>SqueakSource is a web-based source management system for Squeak using the Monticello code versioning system and it is more traditional in the kind of flow it presents.</dd>
+</dl>
+
+<h3>What is Pharo?</h3>
+
+
+<p>
+First, the design of Pharo is still one of the best in terms of elegance,
+purity, and consistency. Second, the set of tools is really good: debuggers,
+browsers, refactoring engines, and unit testing frameworks are all available in Pharo. Third, and most important, in Pharo you constantly interact with
+live objects. This is particularly exciting when developing web applications.
+There's no need to constantly recompile your code or restart the server.
+Instead, you debug your applications on the fly, recompile running code, and
+access your business objects right in the browser, which gives you a huge
+productivity gain.
+</p>
+<p>
+Experience has proven to us that Pharo is not difficult to learn, it
+provides many advantages and it's no hindrance to using Seaside. In fact we
+often see people starting to learn Pharo because of Seaside. To help you get
+up to speed, we suggest you read <em>Pharo by Example</em>. It is a free book
+available at <a href="http://books.pharo.org/">http://books.pharo.org</a>. Chapters
+3, 4 and 5 contain a minimal description of Pharo, its object-oriented model
+and the elementary syntax elements that you need to know to follow this book. In
+the next chapter, we will help you to get started with the environment step by
+step.
+</p>
+<p>
+In this book, we use the <em>Seaside 3.1 Image</em> which you can find on
+the Seaside website at <a href="http://www.seaside.st/">http://www.seaside.st</a>. The One Click
+Image is a bundle of everything you need to run Seaside once you unzip it.
+We suggest you use this image to start. It makes things much simpler.
+</p>
+<p>
+The Seaside mailing list is a good place to ask questions because the
+subscribers to the list answer questions quickly. Do not hesitate to join and
+participate in the community. You can also discuss Seaside development on the Discord server: XXXX
+</p>
+<p>
+Okay then, you now have tools at your disposal to help you through any problems
+you might encounter.
+</p>
+<h3>Structure of the Book</h3>
+
+<dl><dt>Getting Started</dt>
+<dd>Explains how to get a Seaside application up and running in less than 15 minutes. It will show you some Seaside tools.</dd>
+</dl>
+
+<dl><dt>Fundamentals</dt>
+<dd>Shows you how to manipulate basic elements, such as text, anchors, and callbacks, as well as forms. It presents the notion of a <em>brush</em>, which is central to the Seaside API.</dd>
+</dl>
+
+<dl><dt>Components</dt>
+<dd>Describes components, the basic building blocks of Seaside. It shows how components are defined and can populate the screen or be called and embedded within one another. It also presents tasks that are control flow components and describes how reuse is achieved in Seaside via component decoration. It ends with a discussion of the Slime library, which checks and validates your Seaside code.</dd>
+</dl>
+
+<dl><dt>Seaside in Action</dt>
+<dd>This part develops two little applications -- a todo list manager and a sudoku player. Then it presents how to serve files, a discussion of character encodings, and how to customize a session to hold application-centric information.</dd>
+</dl>
+
+<dl><dt>Web 20</dt>
+<dd>This part describes how to create an RSS feed, as well as the details of integrating JavaScript into an application. It finishes by showing some push technology such as <em>Comet</em>, which allows you to synchronize multiple applications.</dd>
+</dl>
+
+<dl><dt>Advanced</dt>
+<dd>Presents some details that you face when you configure and deploy a Seaside application. It shows how to test Seaside components, and discusses Seaside security by presenting the most common attacks and how Seaside deals with them effectively. Then, even though Seaside is not about persistency, we discuss some persistency approaches. Finally, we present Magritte, a meta-data framework, and its Seaside integration. Magritte lets you generate forms on the fly.</dd>
+</dl>
+
+
+
+<h3>Formatting Conventions</h3>
+
+<p>
+We need to say a word about formatting conventions before we proceed. In Pharo,
+as in most Smalltalk implementations, you edit code using a code browser as we
+will show you in the next chapter. To look at the code for a method, you select
+a package, then a class, a method category and finally the method you want to
+see. The method's class is always visible. When reading a book, a method's class
+may not be so obvious.
+</p>
+<p>
+To help your understanding of the code we present, we will follow a common
+convention to display Smalltalk code: we will prefix a method signature with its
+class name. Here is an example. Suppose you need to enter the method
+<code>renderContentOn:</code> in your browser, and this method is in the class:
+<code>WebSudoku</code>. You will see the following code in your browser.
+</p>
+<figure><pre><code>renderContentOn: html
+    html div
+        id: 'board';
+        with: [ html form: [ self renderBoardOn: html ] ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+To help you remember that this method is defined in the class <code>WebSudoku</code>, we
+will write it as follows:
+</p>
+<figure><pre><code>WebSudoku &gt;&gt; renderContentOn: html
+    html div
+        id: 'board';
+        with: [ html form: [ self renderBoardOn: html ] ]</code></pre><figcaption></figcaption></figure>
+
+
+
+<p>
+When you enter the text for this method, you do not type <code>WebSudoku&gt;&gt;</code>. It is
+there only so you will know the method's class. We will use a similar convention
+in the running text. To be precise about a method and its class, we will use
+<code>WebSudoku&gt;&gt;renderContentOn:</code>.
+</p>
+<p>
+In Pharo, a class and an instance of a class both have methods. The class
+methods are analogous to static methods in Java. Class methods respond to
+messages sent to the class itself. To make it clear that we are talking about a
+class method, we will refer to it using <code>WebSudoku class&gt;&gt;canBeRoot</code>. For
+example, here is the definition of the class method <code>canBeRoot</code>, defined on
+the class <code>WebSudoku</code>:
+</p>
+<figure><pre><code>WebSudoku class &gt;&gt; canBeRoot
+    ^ true</code></pre><figcaption></figcaption></figure>
+
+<p>
+We use the following annotations for specific notes:
+</p>
+<p class="note">This is a side-note and might be interesting to readers more curious about the topic.</p>
+<p class="note">Advanced This is a remark covering advanced topics. It can be safely skipped on the first pass through the book.</p>
+<p class="note">Important This is an important note, if you do not follow the suggestions you are likely to get into trouble.</p>
+
+<h3>Acknowledgments</h3>
+
+<p>
+We wish to thank all the people who helped to make this book possible. Torsten
+Bergmann, Damien Cassou, Tom Krisch, Philippe Marshall, Ruben Schempp, Roger
+Whitney, and Julian Fitzell carefully reviewed the book and provided valuable
+feedback. Martin J. Laubach for his Sudoku code. Ramon Leon for letting us use
+his ideas described on his blog on SandStoneDB, and Chris Muller for Magma. Jeff
+Dorst provided financial support for supporting student text reading. Markus
+Gaelli for brainstorming on the book title. Samuel Morello for designing the
+cover. We thank the European Smalltalk User Group, Inceptive.be, Cincom Systems,
+GemStone Systems Inc. and Instantiations for the generous financial support.
+</p>
+<p>
+Furthermore, an uncountable number of people provided feedback through the notes
+on the website:
+aaamos,
+agarcia,
+alamkhan733,
+aldeveron,
+alejperez,
+alex.albitov,
+alleagrastudena,
+amalagsoftware,
+amalawi,
+andre,
+andrew.evil.genius,
+andy.burnett,
+anhlh,
+anitatiwari66,
+anonimo,
+antkrause,
+anukpriya,
+apstein,
+arc,
+ardaliev,
+artem.voroztsov,
+asselinraymond,
+astares,
+awol,
+b.prior,
+bart.gauquie,
+basilmir,
+bendict101,
+benoit.astruc,
+bgridley,
+bilesja,
+bjorn.eiderback,
+blank,
+bonzini,
+bouraqadi,
+brauer,
+briannolan45,
+bromagosa,
+bruefkasten,
+bschwab,
+bugmenot,
+cacciaresi,
+carlg,
+carlos.crosetti,
+cdrick65,
+cems,
+cesar.smx,
+chaetal,
+chicoary,
+chip,
+chris.pollard,
+chrismeyer206,
+christophe.rettien,
+chunsj,
+citizen428,
+cj-bachinger,
+colson,
+craig,
+crystal.dry.eyes,
+cuyeu,
+cy.delaunay,
+dago1965,
+damien.cassou,
+damien.pollet,
+dan,
+danc,
+david,
+davidleonhardt,
+dev,
+didier,
+dmytrenko.d,
+dsblakewatson,
+dvciontu,
+ed.stow,
+efinleyscience,
+elendilo,
+epovazan,
+fabio.braga,
+fgadzinski,
+flipityskipit,
+fractallyte,
+fraggerbe,
+francois.le.coguiec,
+francois.stephany,
+frans,
+frelach,
+friends.prince,
+fritz.schenk,
+galyathee,
+garybarnett,
+gaston.dalloglio,
+geert.wl.claes,
+george,
+ginolee859,
+goaway1000,
+haga551010,
+halcyonshizzle,
+hannes.hirzel,
+hentai,
+hichem_warum_nicht,
+hjhoffmann,
+hm,
+ino.santangelo,
+intrader,
+ismailshuaibu,
+itsme213,
+jailachure11,
+jayers,
+jborden23,
+jeremy.chan,
+jesusalbertosanchez,
+jgarcia,
+jguell,
+jkiggundu,
+jnials,
+joel,
+john.chludzinski,
+john_okeefe,
+josef.springer,
+jpamayag,
+jred_xv,
+jrinkel,
+juanmfernandez,
+junkabyss,
+juraj.kubelka,
+justin.forder,
+karsten,
+kees,
+kjborden23,
+kommentaren,
+kontakinti_11,
+kremerk,
+landriese,
+laurent.laffont,
+lehoanganh.vn,
+lenglish5,
+lgadallah,
+liangbing64,
+linuxghostpower,
+liquidhorse,
+lorenzo,
+luis.ramirez,
+ma.chris.m,
+mani7info,
+manishmore14,
+marcello.rocha,
+marcos.macedo,
+mark.owens999,
+martin.t.krebs,
+matthias.berth,
+mcleod,
+merlyn,
+michael,
+misaeboca,
+miss.martinezsandra,
+mitul_b_shah,
+momode56,
+momoewang,
+morbusg,
+mriffe,
+muzzahmed01,
+nathan_benninghoff,
+nath_kamal,
+ncalexander,
+netprobe,
+nick.ager,
+nielvv,
+nikita.pristupchik,
+niko.saint,
+niko.schwarz,
+nizar.jouini,
+nrf,
+nwmullen,
+offray,
+pat.maddox,
+paulpham,
+pdebruic,
+peterg,
+petton.nicolas,
+pjw1,
+qwe517,
+r.koller,
+rafael.luque.leiva,
+rajat.tags,
+ramiro,
+ramon.leon,
+ramshreyas.rao,
+razavi,
+rene.mages,
+rh,
+rhawley,
+richard_a_green,
+riverdusty,
+robert,
+robert.reitenbach,
+robin.luiten,
+rogthedodge,
+ron.fucci,
+rsiel.455,
+rwelch,
+samoila.mircea,
+samthecool7,
+sean,
+seansorrel,
+seaside.web.macta,
+sebovick,
+sergio,
+sergio.rrd,
+shar_28_min,
+sheshadri.mantha,
+simon,
+simon.denier,
+smalltalk,
+smalltalktelevision,
+snoobabk,
+sokhoeun.kong,
+solveig.instantiations,
+squeakman,
+ssmith,
+stefan.izota,
+stephan,
+stephen.smith,
+steve,
+stevek,
+sthomas1,
+stuart,
+sukumini_g,
+szaidi6,
+t.pierce,
+tallman,
+tanga,
+tariqrauf2002,
+tatacarrera,
+tfahey,
+thewinterlion,
+thiagosl,
+timloo0710,
+tobez,
+tony,
+tony.fleig,
+tpburke,
+tudor.girba,
+tyusupov,
+udo.schneider,
+unixmonkey1,
+vagy,
+vanchau,
+victorct83,
+vinref,
+vmusulainen,
+vsteiss,
+watchlala,
+web.macta,
+wolfopsys,
+wrcstewart,
+wrinkles,
+write.to.me,
+wsgibson,
+xekoukou,
+xs4hkr,
+y2ahsan,
+yanni,
+yasirkaram,
+zanveb82,
+zhangxinchun2008.
+Thank you all.
+</p>
+<p>
+We give a special thanks to Avi Bryant and Julian Fitzell for inventing Seaside.
+In particular, they showed us that going against the current is possible when
+you have brilliant ideas and a powerful language such as Smalltalk.
+</p>
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+</article>
+
+<footer>
+
+<div class="footline">
+    <div class="github-link">
+      <a href="" target="blank"><i class="fa fa-code-fork"></i>Github</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/clipboard.min.js"></script>
+
+
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/styles/default.css">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/highlight-commands.css">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/featherlight.min.css" rel="stylesheet">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/featherlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/flex.js"></script>
+<!-- Prettify annotated paragraphs-->
+    <script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/annotated-paragraphs.js"></script>
+
+  </body>
+</html>

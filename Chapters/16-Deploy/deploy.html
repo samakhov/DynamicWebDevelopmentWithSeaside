@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pharo Book</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/font-awesome.min.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/nucleus.css" rel="stylesheet">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/flex.css" rel="stylesheet">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/bootstrap.min.css">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/jquery-2.x.min.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/highlight.pack.js"></script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/highlight-commands.js"></script>
+<meta name="description" content="">
+<meta name="author" content="Stéphane Ducasse \ (based on S. Ducasse, D.C. Shaffer, L. Renggli, and R. Zaccone)">
+  </head>
+  <body>
+    <header>
+  <div class="logo">
+    <a class="baselink" href="/DynamicWebDevelopmentWithSeaside/">Pharo Book</a>
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+   		<li data-nav-id="123" class="dd-item">
+    		<a href="/DynamicWebDevelopmentWithSeaside">
+		       <i class="fa fa-fw fa-home"></i>
+	    	</a>
+        </li>
+
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#getting started">
+					Getting Started
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#getting started in gemstone/s">
+							Getting Started in Gemstone/S
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#using the glass virtual appliance">Using the GLASS Virtual Appliance</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#a first seaside component">A first Seaside Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining a component">Defining a Component</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#defining some methods">Defining Some Methods</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#rendering a counter">Rendering a Counter</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#registering the application">Registering the application</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#adding behavior">Adding Behavior</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/Chapters/02-Gemstone/Gemstone.html#keeping up with the latest features">Keeping Up with the Latest Features</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#gemstone version">
+							Gemstone version
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#fundamentals">
+					Fundamentals
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#using components">
+					Using Components
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/DynamicWebDevelopmentWithSeaside/index.html#seaside in action">
+					Seaside in Action
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/DynamicWebDevelopmentWithSeaside/index.html#wish list of new chapter">
+							Wish list of new chapter
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#willow?">Willow?</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#bootstrap">Bootstrap</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mdl">MDL</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#mustaside">Mustaside</a>
+						</li>
+							
+						<li class="dd-item">
+							<a href="/DynamicWebDevelopmentWithSeaside/index.html#websockets">WebSockets</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+    </ul>
+  </aside>
+
+  <section class="page">
+    
+	<h1>Dynamic Web Development with Seaside</h1>
+		
+	<h2>Deployment</h2>
+<a id="cha:deploy"></a>
+<p>
+At some point you certainly want to go public with your web application. This means you need to find a server that is publicly reachable and that can host your Seaside application. If your application is successful, you might need to scale it to handle thousands of concurrent users. All this requires some technical knowledge. 
+</p>
+<p>
+In <a href="#ref:deployment-preparing"></a> we are going to have a look at some best practices before deploying an application.  Next, in <a href="#ref:deployment-apache"></a> we present how to setup your own server using Apache. Last but not least, in <a href="#ref:maintaining"></a>, we demonstrate ways to maintain a deployed image.
+</p>
+<h3>Preparing for Deployment</h3>
+<a id="ref:deployment-preparing"></a>
+<p>
+Because Pharo offers you an image-based development environment, deploying your application can be as simple as copying your development image to your server of choice. However, this approach has a number of drawbacks. We will review a number of these drawbacks and how to overcome them.
+</p>
+<h4>Stripping down your image.</h4>
+
+<p>
+ The image you have been working in may have accumulated lots of code and tools that aren't needed for your final application; removing these will give you a smaller, cleaner image. How much you remove will depend on how many support tools you wish to include in your deployed image.
+ 
+ @todo: we should mention the mini image
+</p>
+<p>
+Alternatively, you may find it easier to copy your application code into a pre-prepared, `stripped-down' image. For Pharo we have had good experiences using the <a href="http://www.pharo-project.org/">Pharo Core</a> or Pharo minimal images.
+</p>
+<h4>Preparing Seaside.</h4>
+<p>
+ The first task in preparing Seaside for a server image is to remove all unused applications. To do this go to the <em>configuration</em> application at <a href="http://localhost:8080/config">http://localhost:8080/config</a> and click on <em>remove</em> for all the entry points you don't need to be deployed. Especially make sure that you remove (or password protect) the <em>configuration</em> application and the <em>code browser</em> (at <a href="http://localhost:8080/tools/classbrowser">http://localhost:8080/tools/classbrowser</a>), as these tools allow other people to access and potentially execute arbitrary code on your server.
+</p>
+<a id="note The best way to deploy is to build a fresh image without the development, the tests and admin tool packages loaded in the first place. That will ensure nothing dangerous is there at all."></a>
+<h4>Disable Development Tools.</h4>
+<p>
+ If you still want the development tools loaded, then the best way is to remove <code>WADevelopmentConfiguration</code> from the shared configuration called &quot;Application Defaults&quot;. You can do this by evaluating the code:
+</p>
+<figure><pre><code>WAAdmin applicationDefaults
+    removeParent: WADevelopmentConfiguration instance</code></pre><figcaption></figcaption></figure>
+
+<p>
+You can always add it back by evaluating:
+</p>
+<figure><pre><code>WAAdmin applicationDefaults
+    addParent: WADevelopmentConfiguration instance</code></pre><figcaption></figcaption></figure>
+
+<p>
+Alternatively you can use the configuration interface: In the configuration of any application select <em>Application Defaults</em> from the list of the <em>Assigned parents</em> in the <em>Inherited Configuration</em> section and click on <em>Configure</em>. This opens an editor on the settings that are common to all registered applications. Remove <code>WAToolDecoration</code> from the list of <em>Root Decoration Classes</em>.
+</p>
+<h4>Password Protection.</h4>
+<p>
+ If you want to limit access to deployed applications make sure that you password protect them. To password protect an application do the following:
+</p>
+<ol><li>Click on <em>Configure</em> of the particular entry point.</li>
+<li>In the section <em>Inherited Configuration</em> click select <code>WAAuthConfiguration</code> from the drop down box and click on <em>Add</em>. This will will add the authentication settings below.</li>
+<li>Set <em>login</em> and <em>password</em> in the <em>Configuration</em> section below.</li>
+<li>Click on <em>Save</em>.</li>
+</ol>
+
+<p>
+<a id="fig:configuration"></a>
+<figure>
+	<img src="figures/config.png" width="80%" id="fig:configuration" alt="Configure an application for deployment."/>
+	<figcaption>Configure an application for deployment.</figcaption>
+</figure>
+</p>
+
+<p>
+If you want to programmatically change the password of the Seaside configure application, adapt and execute the following code:
+</p>
+<figure><pre><code>| application |
+application := WADispatcher default handlerAt: 'config'.
+application configuration 
+    addParent: WAAuthConfiguration instance.
+application
+    preferenceAt: #login put: 'admin';
+    preferenceAt: #passwordHash put: (GRPlatform current secureHashFor: 'seaside').
+application
+    addFilter: WAAuthenticationFilter new.</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+Alternatively you can use the method <code>WAAdmin&gt;&gt;register:asApplicationAt:user:password:</code> to do all that for you when registering the application:
+</p>
+<figure><pre><code>WAConfigurationTool class &gt;&gt; initialize
+     WAAdmin register: self asApplicationAt: 'config' user: 'admin' password: 'seaside'</code></pre><figcaption></figcaption></figure>
+
+<p>
+Next we have a look at the configuration settings relevant for deployment. Click on <em>Configure</em> of the application you are going to deploy. If you don't understand all the settings described here, don't worry, everything will become clearer in the course of the following sections.
+</p>
+<h4>Resource Base URL.</h4>
+<p>
+ This defines the URL prefix for URLs created with  <code>WAAnchorTag&gt;&gt;resourceUrl:</code>. This setting avoids you having to duplicate the base-path for URLs to resource files all over your application. You will find this setting useful if you host your static files on a different machine than the application itself or if you want to quickly change the resources depending on your deployment scenario.
+</p>
+<p>
+As an example, let's have a look at the following rendering code: <code>html image resourceUrl: 'logo-plain.png'</code>. If the resource base URL setting is set to <a href="http://www.seaside.st/styles/">http://www.seaside.st/styles/</a>, this will point to the image at <a href="http://www.seaside.st/styles/logo-plain.png">http://www.seaside.st/styles/logo-plain.png</a>. Note that this setting only affects URLs created with <code>WAImageTag&gt;&gt;resourceUrl:</code>, it does not affect the generated pages and URLs otherwise.
+</p>
+<p>
+Set it programmatically with:
+</p>
+<figure><pre><code>application
+    preferenceAt: #resourceBaseUrl
+    put: 'http://www.seaside.st/resources/'</code></pre><figcaption></figcaption></figure>
+
+<h4>Server Protocol, Hostname, Port and Base Path.</h4>
+<p>
+ Seaside creates absolute URLs by default. This is necessary to properly implement HTTP redirects. To be able to know what absolute path to generate, Seaside needs some additional information and this is what these settings are about. These settings will be useful if you are deploying Seaside behind an external front-end web-server like Apache.
+</p>
+
+<p>
+<a id="fig:deploy-url"></a>
+<figure>
+	<img src="figures/deploy-url.png" width="80%" id="fig:deploy-url" alt="Configuration options for absolute URLs."/>
+	<figcaption>Configuration options for absolute URLs.</figcaption>
+</figure>
+</p>
+
+<p>
+Have a look at <a href="#fig:deploy-url"></a> to see visually how these settings affect the URL. <em>Server Protocol</em> lets you change between <code>http</code> and <code>https</code> (Secure HTTP). Note that this changes only the way the URL is generated, it does not implement HTTPS -- if you want secure HTTP you need to pass the requests through a HTTPS proxy. <em>Server Hostname</em> and <em>Server Port</em> define the hostname and port respectively. In most setups, you can leave these settings undefined, as Seaside is able to figure out the correct preferences itself. If you are using an older web server such as Apache 1 you have to give the appropriate values here. <em>Server Path</em> defines the URL prefix that is used in the URLs. Again, this only affects how the URL is generated, it does not change the lookup of the application in Seaside. This setting is useful if you want to closely integrate your application into an existing web site or if you want to get rid or change the prefix <code>/appname</code> of your applications.
+</p>
+<p>
+Again, if you want to script the deployment, adapt and execute the following code:
+</p>
+<figure><pre><code>application
+    preferenceAt: #serverProtocol put: 'http';
+    preferenceAt: #serverHostname put: 'localhost';
+    preferenceAt: #serverPort put: 8080;
+    preferenceAt: #serverPath put: '/'</code></pre><figcaption></figcaption></figure>
+
+
+<h3>Deployment with Apache</h3>
+<a id="ref:deployment-apache"></a>
+<p>
+In this section we discuss a typical server setup for Seaside using Debian Linux as operating system. Even if you are not on a Unix system, you might want to continue reading, as the basic principles are the same everywhere. Due to the deviation of different Linux and Apache distributions, the instructions given here cannot replace the documentation for your particular target system.
+</p>
+<h4>Preparing the server</h4>
+
+<p>
+Before getting started you need a server machine. This is a computer with a static IP address that is always connected to the Internet. It is not required that you have physical access to your machine. You might well decide to host your application on a virtual private server (VPS). It is important to note that you require superuser-level access to be able to run Smalltalk images. The ability to execute PHP scripts is not enough.
+</p>
+<p>
+We assume that your server already has a working Linux installation. 
+In the following sections we use Debian Linux 5.0 (Lenny), however with 
+minor adjustments you will also be able to deploy applications on other 
+distributions. 
+</p>
+<p>
+Before starting with the setup of your application, it is important to make sure that your server software is up-to-date. It is crucial that you always keep your server up to the latest version to prevent malicious attacks and well-known bugs in the software. 
+</p>
+<p>
+To update your server execute the following commands from a terminal. Most commands we use in this chapter require administrative privileges, therefore we prepend them with sudo (super user do):
+</p>
+<figure><pre><code>$ sudo apt-get update
+$ sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.</code></pre><figcaption></figcaption></figure>
+
+<h4>Installing Apache</h4>
+
+<p>
+Next we install Apache 2.2, an industry leading open-source web server. Depending on your requirements you might decide to install a different web server. Lighttpd, for example, might be better suited in a high performance environment.
+</p>
+<p>
+Some people prefer to use one of the web servers written in Smalltalk. This is a good choice during development and prototyping, as such a server is easy to setup and maintain. We strongly discourage to use such a setup for production applications due to the following reasons:
+ 
+</p><ul>
+<li>The web server is something accessible from outside the world and therefore exposed to malicious attacks. Apache is a proven industry standard used by more than 50% (depending on the survey) of all of today's web sites.</li>
+<li>To listen on port 80, the standard port used by the HTTP protocol, the web server needs to run as root. Running a public service as root is a huge security issue. Dedicated web servers such as Apache drop their root privileges after startup. This allows them to listen to port 80 while not being root. Unfortunately this is not something that can be easily done from within the Smalltalk VM.</li>
+<li>Smalltalk is relatively slow when reading files and processing large amounts of data (the fact that everything is an object is rather a disadvantage in this case). A web server running natively on the host platform is always faster by an  order of magnitude. A standalone web server can take advantages of the underlying operating system and advise it to directly stream data from the file-system to the socket as efficiently as possible. Furthermore web servers usually provide highly efficient caching strategies.</li>
+<li>Most of today's Smalltalk systems (with the exception of GemStone) are single threaded. This means that when your image is serving files, Seaside is blocked and cannot produce dynamic content at the same time. On most of today's multi-core systems you get much better performance when serving static files through Apache running in parallel to your Seaside application server.</li>
+<li>External web servers integrate well with the rest of the world. Your web application might need to integrate into an existing site. Often a web site consists of static as well as dynamic content provided by different technologies. The seamingless integration of all these technologies is simple with Apache.</li>
+</ul>
+
+<p>
+Let's go and install Apache then. If you are running an older version you might want to consider upgrading, as it makes the integration with Seaside considerably simpler, although it is not strictly necessary.
+</p>
+<figure><pre><code>$ sudo apt-get install apache2</code></pre><figcaption></figcaption></figure>
+
+<p>
+Ensure the server is running and make it come up automatically when the machine boots:
+</p>
+<figure><pre><code>$ sudo apache2 -k restart
+$ sudo update-rc.d apache2 defaults</code></pre><figcaption></figcaption></figure>
+
+<h4>Installing the VM</h4>
+
+<p class="todo">update </p>
+<p>
+Depending on the Smalltalk dialect you are using, the installation of 
+the VM is different. Installing Pharo on a Debian system is simple. 
+Install Pharo by entering the following command on the terminal: 
+</p>
+<figure><pre><code>$ sudo apt-get install squeak-vm</code></pre><figcaption></figcaption></figure>
+
+<p>
+Note that installing and running Squeak does not require you to have the <em>X Window System</em> installed. Just tell the installer not to pull these dependencies in, when you are asked for it. Squeak remains runnable headless without a user-interface, this is what you want to do on most servers anyway. Up-to-date information on the status of the Squeak VM you find at <a href="http://www.squeakvm.org/unix/">http://www.squeakvm.org/unix/</a>.
+</p>
+<p>
+Now you should be able to start the VM. Typing the <code>squeak</code> command executes a helper script that allows one to install new images and sources in the current directory, and run the VM. The VM itself can be started using the <code>squeakvm</code> command.
+</p>
+<figure><pre><code>$ squeakvm -help
+$ squeakvm -vm-display-null imagename.image</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+You can find additional help on starting the VM and the possible command line parameters in the man pages:
+</p>
+<figure><pre><code>$ man squeak</code></pre><figcaption></figcaption></figure>
+
+<p>
+In the next section we are going to look at how we can run the VM as a daemon.
+</p>
+<h4>Running the VM</h4>
+
+<p>
+Before we hook up the Pharo side with the web server, we need a reliable way to start and keep the Smalltalk images running as daemon (background process). We have had positive experience using the <em>daemontools</em>, a free collection of tools for managing UNIX service written by Daniel J. Bernstein. Contrary to other tools like <code>inittab</code>, <code>ttys</code>, <code>init.d</code>, or <code>rc.local</code>, the <code>daemontools</code> are reliable and easy to use. Adding a new service means linking a directory with a script that runs your VM into a centralized place. Removing the service means removing the linked directory.
+</p>
+<p>
+Type the following command to install daemontools. Please refer to official website (<a href="http://cr.yp.to/daemontools.html">http://cr.yp.to/daemontools.html</a>) for additional information.
+</p>
+<figure><pre><code>$ apt-get install daemontools-run</code></pre><figcaption></figcaption></figure>
+
+<p>
+On the server create a new folder to carry all the files of your Seaside application. We usually put this folder into a subdirectory of <code>/srv</code> and name it according to our application <code>/srv/appname</code>, but this is up to you. Copy the deployment image you prepared in <a href=""></a> into that directory. Next we create a <code>run</code> script in the same directory:
+</p>
+<figure><pre><code>#!/bin/bash
+
+# settings
+USER=&quot;www-data&quot;
+VM=&quot;/usr/bin/squeakvm&quot;
+VM_PARAMS=&quot;-mmap 256m -vm-sound-null -vm-display-null&quot;
+IMAGE=&quot;seaside.image&quot;
+
+# start the vm
+exec \
+    setuidgid &quot;$USER&quot; \
+    &quot;$VM&quot; $VM_PARAMS &quot;$IMAGE&quot;</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+On lines 3 to 7 we define some generic settings. <code>$USER</code> is the user of the system that should run your Smalltalk image. If you don't set a user here, the web service will run as root, something you must avoid. Make sure you have the user specified here on your system. <code>www-data</code> is the default user for web services on Debian systems. Make sure that this is not a user with root privileges. <code>$VM</code> defines the full path to the Squeak VM. If you have a different installation or Smalltalk dialect, you again need to adapt this setting. <code>$VM_PARAMS</code> defines the parameters passed to the Squeak VM. If you use a different environment, you need to consult the documentation and adapt these parameters accordingly. The first parameter <code>-mmap 256m</code> limits the dynamic heap size of the Squeak VM to 256 MB and makes Squeak VMs run more stably. <code>-vm-sound-null</code> disables the sound plugin, something we certainly don't need on the server. <code>-vm-display-null</code> makes the VM run headless. This is crucial on our server, as we presumably don't have any windowing server installed.
+</p>
+<p>
+The last four lines of the script actually start the VM with the given parameters. Line 11 changes the user id of the Squeak VM, and line 12 actually runs the Squeak VM.
+</p>
+<p>
+To test the script mark it as executable and run it from the command line. You need to do this as superuser, otherwise you will get an error when trying to change the user id of the VM.
+</p>
+<figure><pre><code>$ chmod +x ./run
+$ sudo ./run</code></pre><figcaption></figcaption></figure>
+
+<p>
+The VM should be running now. You can verify that by using on of the UNIX console tools. In the following example we assume that the image has a web server installed and is listening on port 8080:
+</p>
+<figure><pre><code>$ curl http://localhost:8080
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&lt;html
+xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;title&gt;Dispatcher at /&lt;/title&gt;
+...</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+You might want to change the URL to point to your application. As long as you don't get an error message like <code>curl: (7) couldn't connect to host</code> everything is fine. You can install curl using 
+</p>
+<figure><pre><code>apt-get install curl</code></pre><figcaption></figcaption></figure>
+
+<h4>Troubleshooting the VM.</h4>
+<p>
+ You may encounter some common problems at this point. One of these problems is that the VM is unable to find or read the image, change or source files. Make sure that all these files are in the same directory and that their permissions are correctly set so that the user <code>www-data</code> can actually read them. Also ensure that the image has been saved with the web server running on the correct port.
+</p>
+<p class="important">Pharo displays an error message when the <code>.changes</code> or <code>.sources</code> file cannot be found or accessed. Unfortunately this message is not visible from the console, but only pops up virtually in the headless window of the VM. The modal dialog prevents the VM from starting up the server and thus the image remains unreachable. To solve the problem make sure that <code>.changes</code> and <code>.sources</code> files are in the same directory as the image-file and that all files can be read by the user <code>www-data</code>. Another possibility (if you really do not want to distribute the files) is to disable the missing files warning using:</p>
+<figure><pre><code>Preferences disable: #warnIfNoSourcesFile</code></pre><figcaption></figcaption></figure>
+
+<p>
+A valuable tool to further troubleshoot a running but otherwise not responding VM is <code>lsof</code>, an utility that lists opened files and sockets by process. You can install it using <code>apt-get install lsof</code>. Use a different terminal to type the following commands:
+</p>
+<figure><pre><code>$ ps -A | grep squeakvm
+	22315 ?        00:17:49 squeakvm
+$ lsof -p 22315 | grep LISTEN
+squeakvm 22315 www-data  7u  IPv4 411140468  TCP *:webcache (LISTEN)
+squeakvm 22315 www-data  8u  IPv4 409571873  TCP *:5900 (LISTEN)</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+With the first line,  we find out the process id of the running Squeak VM. <code>lsof -p 22315</code> lists all the open files and sockets of process <code>22315</code>. Since we are only interested in the sockets Squeak is listening on we grep for the string <code>LISTEN</code>. In this case we see that a web server is correctly listening on port 8080 (webcache) and that another service is listening on port 5900. In fact the latter is the RFB server, which we will discuss in <a href=""></a>.
+</p>
+<p>
+In the original terminal, press Ctrl+C to stop the VM. 
+</p>
+<h4>Starting the service.</h4>
+<p>
+Go to <code>/service</code> and link the directory with your run-script in there, to let <em>daemontools</em> automatically start your image.
+</p>
+<p>
+Go to <code>/etc/service</code> (on other distributions this might be <code>/service</code>) and link 
+the directory with your run-script in there, to let <em>daemontools</em> automatically start your image.
+</p>
+<figure><pre><code>$ cd /service
+$ ln -s /srv/appname .</code></pre><figcaption></figcaption></figure>
+
+<p>
+You can do an <code>svstat</code> to see if the new service is running correctly:
+</p>
+<figure><pre><code>$ svstat *
+appname: up (pid 4165) 8 seconds</code></pre><figcaption></figcaption></figure>
+
+<p>
+The output of the command tells you that the service <code>appname</code> is up and running for 8 seconds with process id 4165. From now on <em>daemontools</em> makes sure that the image is running all the time. The image gets started automatically when the machine boots and -- should it crash -- it is immediately restarted.
+</p>
+<h4>Stopping the service.</h4>
+<p>
+ To stop the image unlink the directory from <code>/service</code> and terminate the service.
+</p>
+<p>
+ [[[
+$ rm /etc/service/appname
+$ cd /srv/appname 
+$ svc -t .
+]]]
+</p>
+<p>
+Note that only unlinking the service doesn't stop it from running, it is just taking it away from the pool of services. Also note that terminating the service without first unlinking it from the service directory will cause it to restart immediately. <em>daemontools</em> is very strict on that and will try to keep all services running all the time.
+</p>
+<p>
+As you have seen starting and stopping an image with <em>daemontools</em> is simple and can be easily scripted with a few shell scripts.
+</p>
+<h4>Configuring Apache</h4>
+
+<p>
+Now we have all the pieces to run our application. The last remaining thing to do is to get Apache configured correctly. In most UNIX distributions this is done by modifying or adding configuration files to <code>/etc/apache2</code>. On older systems the configuration might also be in a directory named <code>/etc/httpd</code>. 
+</p>
+<p>
+The main configuration file is situated in <code>apache2.conf</code>, or <code>httpd.conf</code> on older systems. Before we change the configuration of the server and add the Seaside web application, have a look at this file. It is usually instructive to see how the default configuration looks like and there is plenty of documentation in the configuration file itself. On most systems this main configuration file includes other configuration files that specify what modules (plug-ins) are loaded and what sites are served through the web server.
+</p>
+<h4>Loading Modules.</h4>
+<p>
+On Debian the directory <code>/etc/apache2/mods-available</code> contains all the available modules that could be loaded. To make them actually available from your configuration you have to link (<code>ln</code>) the <code>.load</code> files to <code>/etc/apache2/mods-enabled</code>. We need to do that for the proxy and rewrite modules:
+</p>
+<figure><pre><code>$ a2enmod proxy 
+$ a2enmod proxy_http 
+$ a2enmod rewrite </code></pre><figcaption></figcaption></figure>
+
+<p>
+If you are running an older version you might need to uncomment some lines in the main configuration file to add these modules.
+</p>
+<h4>Adding a new site.</h4>
+<p>
+ Next we add a new site. The procedure here is very similar to the one of the modules, except that we have to write the configuration file ourselves. <code>/etc/apache2/sites-available/</code> contains configuration directives files of different virtual hosts that might be used with Apache 2. <code>/etc/apache2/sites-enabled/</code> contains links to the sites in <code>sites-enabled/</code> that the administrator wishes to enable. 
+</p>
+<p>
+<strong>Step 1.</strong> In <code>/etc/apache2/sites-available/</code> create a new configuration file called <code>appname.conf</code> as follow. 
+</p>
+<figure><pre><code>&lt;VirtualHost *&gt;
+    # set server name
+    ProxyPreserveHost On
+    ServerName www.appname.com
+
+    # rewrite incoming requests
+    RewriteEngine On
+    RewriteRule ^/(.*)$ http://localhost:8080/appname/$1 [proxy,last]
+
+&lt;/VirtualHost&gt;</code></pre><figcaption></figcaption></figure>
+
+<p>
+The file defines a default virtual host. If you want to have different virtual hosts (or domain names) to be served from the same computer replace the <code>*</code> in the first line with your domain name. The domain name that should be used to generate absolute URLs is specified with <code>ServerName</code>. The setting <code>ProxyPreserveHost</code> enables Seaside to figure out the server name automatically, but this setting is not available for versions prior to Apache 2. In this case you have to change the Seaside preference `hostname' for all your applications manually, see <a href=""></a>
+</p>
+<p>
+ <code>RewriteEngine</code> enables the rewrite engine that is used in the line below. The last line actually does all the magic and passes on the request to Seaside. A rewrite rule always consists of 3 parts. The first part matches the URL, in this case all URLs are matched. The second part defines how the URL is transformed. In this case this is the URL that you would use locally when accessing the application. And finally, the last part in square brackets defines the actions to be taken with the transformed URL. In this case we want to proxy the request, this means it should be passed to Squeak using the new URL. We also tell Apache that this is the last rule to be used and no further processing should be done.
+</p>
+<p>
+<strong>Step 2.</strong> Now link the file from <code>/etc/apache2/sites-enabled/</code> and restart Apache:
+</p>
+<figure><pre><code>$ cd /etc/apache2/sites-enabled
+$ ln -s /etc/apache2/sites-available/appname.conf .
+$ sudo apache2ctl restart</code></pre><figcaption></figcaption></figure>
+
+<p>
+If the domain name <code>appname.com</code> is correctly setup and pointing to your machine, everything should be up and running now. Make sure that you set the `server base path' in the application configuration to <code>/</code>, so that Seaside creates correct URLs.
+</p>
+<p>
+<strong>Troubleshooting the Proxy.</strong> On some systems the above configuration may not suffice to get Seaside working. Check the error_log and if you get an error messages in the Apache log saying <code>client denied by server configuration</code> just remove the file <code>/etc/mods-enabled/proxy.conf</code> from the configuration.
+</p>
+
+
+<h3>Serving File with Apache</h3>
+
+<p>
+Most web applications consist of serving static files at one point or the other. These are all files that don't change over time, as opposed to the XHTML of the web applications. Common static files are style sheets, Javascript code, images, videos, sound or simply document files. As we have seen in Chapter <a href=""></a> such files can be easily served through the image, however the same drawbacks apply here as those listed in <a href=""></a>.
+</p>
+<p>
+The simplest way to use an external file server is to overlay a directory tree on the hard disk of the web server over the Seaside application. For example, when someone requests the file <a href="http://www.appname.com/seaside.png">http://www.appname.com/seaside.png</a> the server serves the file <code>/srv/appname/web/seaside.png</code>. With Apache this can be done with a few additional statements in the configuration file:
+</p>
+<figure><pre><code>&lt;VirtualHost *&gt;
+
+    # set server name
+    ProxyPreserveHost On
+    ServerName www.appname.com
+    
+    # configure static file serving
+    DocumentRoot /srv/appname/web
+    &lt;Directory /srv/appname/web&gt;
+        Order deny,allow
+        Allow from all
+    &lt;/Directory&gt;
+    
+    # rewrite incoming requests
+    RewriteEngine On
+    RewriteCond /srv/appname/web%{REQUEST_FILENAME} !-f
+    RewriteRule ^/(.*)$ http://localhost:8080/appname/$1 [proxy,last]
+
+&lt;/VirtualHost&gt;</code></pre><figcaption></figcaption></figure>
+
+<p>
+The added part starts line 9 with the  comment <code>#configure static file serving</code>. Line 9 and following mark a location on the local harddisc to be used as the source of files. So when someone requests the file <a href="http://www.appname.com/seaside.png">http://www.appname.com/seaside.png</a> Apache will try to serve the file found at <code>/srv/appname/web/seaside.png</code>. For security reasons, the default Apache setup forbids serving any files from the local hard disk, even if the filesystem permissions allow the process to access these files. With the lines between <code>Directory</code> and <code>Directory</code> we specify that Apache can serve all files within <code>/srv/appname/web</code>. There are many more configuration options available there, so check out the Apache documentation.
+</p>
+<p>
+The next thing we have to do is add a condition in front of our rewrite rule. As you certainly remember, this rewrite rule passes (proxies) all incoming requests to Seaside. Now, we would only like to do this if the requested file does not exist on the file-system. To take the previous example again, if somebody requests <a href="http://www.appname.com/seaside.png">http://www.appname.com/seaside.png</a> Apache should check if a file named <code>/srv/appname/web/seaside.png</code> exists. 
+This is the meaning of the line 16 where <code>%{REQUEST_FILENAME}</code> is a variable representing the file looked up, here the variable  <code>REQUEST_FILENAME</code> is bound to <code>seaside.png</code>. Furthermore, the cryptic expression <code>!-f</code> means that the following rewrite rule should conditionally be executed <em>if the file specified does not exist</em>. In our case, assuming the file <code>/srv/appname/web/seaside.png</code> exists, this means that the rewrite rule is skipped and Apache does the default request handling. Which is to serve the static files as specified with the <code>DocumentRoot</code> directive. Most other requests, assuming that there are only a few files in <code>/srv/appname/web</code>, are passed on to Seaside.
+</p>
+<p>
+A typical layout of the directory <code>/srv/appname/web</code> might look like this:
+</p>
+<table style="border: solid thin"><tr><td style="text-align: left"><code>favicon.ico</code></td>
+<td>A shortcut icon, which most graphical web browsers automatically  make use of. The icon is typically displayed next to the URL and within the list of bookmarks.</td>
+</tr>
+<tr><td style="text-align: left"><code>robots.txt</code></td>
+<td>A robots exclusion standard, which most search engines request to get information on what parts of the site should be indexed.</td>
+</tr>
+<tr><td style="text-align: left"><code>resources/</code></td>
+<td>A subdirectory of resources used by the graphical designer of your application.</td>
+</tr>
+<tr><td style="text-align: left"><code>resources/css/</code></td>
+<td>All the CSS resources of your application.</td>
+</tr>
+<tr><td style="text-align: left"><code>resources/script/</code></td>
+<td>All the external Javascript files of your application.</td>
+</tr>
+</table>
+
+
+
+<h3>Load Balancing Multiple Images</h3>
+
+<p>
+There are several ways to load balance Seaside images, one common way is to use <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy_balancer.html">mod_proxy_balancer</a> that comes with Apache. Compared to other solutions it is relatively easy to set up, does not modify the response and thus has no performance impact. It requires to only load one small additional package to load into Seaside. Additionally <code>mod_proxy_balancer</code> provides some advanced features like a manager application, pluggable scheduler algorithms and configurable load factors.
+</p>
+<p>
+When load balancing multiple Seaside images care must be taken that all requests that require a particular session are processed by the same image, because unless GemStone is used session do not travel between images. This has to work with and without session cookies. This is referred to as sticky sessions because a session sticks to its unique image. <code>mod_proxy_balancer</code> does this by associating each image with an route name. Seaside has to append this route to the session id. <code>mod_proxy_balancer</code> reads the route from the request and proxies to the appropriate image. This has the advantage that <code>mod_proxy_balancer</code> does not have to keep track of all the sessions and does not have to modify the response. Additionally the mapping is defined statically in the the Apache configuration and is not affected by server restarts.
+</p>
+<p>
+First we need to define our cluster of images. In this example we use two images, the first one on port 8881 with the route name &quot;first&quot; the second on port 8882 with route name &quot;second&quot;. We can of course choose other ports and route names as long as they are unique:
+</p>
+<figure><pre><code>&lt;Proxy balancer://mycluster&gt;
+   BalancerMember http://127.0.0.1:8881 route=first
+   BalancerMember http://127.0.0.1:8882 route=second
+&lt;/Proxy&gt;</code></pre><figcaption></figcaption></figure>
+
+
+<p>
+Next we need to define the actual proxy configuration, which is similar to what we do with a single Seaside image behind an Apache:
+</p>
+<figure><pre><code>ProxyPass / balancer://mycluster/ stickysession=_s|_s nofailover=On
+=ProxyPassReverse / http://127.0.0.1:8881/
+=ProxyPassReverse / http://127.0.0.1:8882/</code></pre><figcaption></figcaption></figure>
+<p>
+Note that we configure <code>_s</code> to be the session id for the URL and the cookie.
+</p>
+<p>
+Finally, we can optionally add the balancer manager application:
+</p>
+<figure><pre><code>ProxyPass /balancer-manager !
+&lt;Location /balancer-manager&gt;
+   SetHandler balancer-manager
+&lt;/Location&gt;</code></pre><figcaption></figcaption></figure>
+<p>
+As well as an optional application displaying the server status:
+</p>
+<figure><pre><code>ProxyPass /server-status !
+&lt;Location /server-status&gt;
+   SetHandler server-status
+&lt;/Location&gt;</code></pre><figcaption></figcaption></figure>
+
+<p>
+Putting all the parts together this gives an apache configuration like the following:
+</p>
+<figure><pre><code>&lt;VirtualHost *&gt;
+
+   ProxyRequests Off
+   ProxyStatus On
+   ProxyPreserveHost On
+   ProxyPass /balancer-manager !
+   ProxyPass /server-status !
+   ProxyPass / balancer://mycluster/ STICKYSESSION=_s|_s
+   ProxyPassReverse / http://127.0.0.1:8881/
+   ProxyPassReverse / http://127.0.0.1:8882/
+   
+   &lt;Proxy balancer://mycluster&gt;
+      BalancerMember http://127.0.0.1:8881 route=first
+      BalancerMember http://127.0.0.1:8882 route=second
+   &lt;/Proxy&gt;
+   
+   &lt;Location /balancer-manager&gt;
+      SetHandler balancer-manager
+   &lt;/Location&gt;
+   
+   &lt;Location /server-status&gt;
+      SetHandler server-status
+   &lt;/Location&gt;
+
+&lt;/VirtualHost&gt;</code></pre><figcaption></figcaption></figure>
+
+<p>
+The rest can be configured from within Seaside. First we need to load the package <code>Seaside-Cluster</code> from <a href="http://www.squeaksource.com/ajp/">http://www.squeaksource.com/ajp/</a>. Then we need to configure each image individually with the correct route name. It is important that this matches the Apache configuration from above. The easiest way to do this is evaluate the expression:
+</p>
+<figure><pre><code>WAAdmin makeAllClusteredWith: 'first'</code></pre><figcaption></figcaption></figure>
+<p>
+in the image on port 8881 and
+</p>
+<figure><pre><code>WAAdmin makeAllClusteredWith: 'second'</code></pre><figcaption></figcaption></figure>
+<p>
+in the image on port 8882.
+</p>
+
+<p>
+<a id="fig:balancer-manager"></a>
+<figure>
+	<img src="figures/balancer-manager.png" width="80%" id="fig:balancer-manager" alt="Apache Load Balancer Manager."/>
+	<figcaption>Apache Load Balancer Manager.</figcaption>
+</figure>
+</p>
+<p>
+This is it, the cluster is ready to go. If enabled the server manager can be found at <a href="http://localhost/balancer-manager">http://localhost/balancer-manager</a>, see Figure <a href="#fig:balancer-manager"></a>, and the server status can be queried on <a href="http://localhost/server-status">http://localhost/server-status</a>. Note that before going to production these two admin applications need to be properly protected from unauthorized access.
+</p>
+<h3>Using AJP</h3>
+
+<p>
+AJPv13 is a binary protocol between Apache and Seaside. It was originally developed for Java Tomcat but there is nothing Java specific about it. Compared to conventional HTTP it has less overhead and better support for SSL.
+</p>
+<p>
+Starting with version Apache 2.2 the required module  <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy_ajp.html">mod_proxy_ajp</a>
+is included with the default setup making it much simpler to use. The configuration looks almost the same as the one we saw in Section <a href=""></a>. The only difference is that you need to replace <code>proxy_http</code> with <code>proxy_ajp</code>, and that the protocol in the URL of the rewrite rule is <code>ajp</code> instead of <code>http</code>.
+</p>
+<p>
+The adapted configuration looks like this:
+</p>
+<figure><pre><code>&lt;VirtualHost *&gt;
+
+    # set server name
+    ProxyPreserveHost On
+    ServerName www.appname.com
+
+    # rewrite incoming requests
+    RewriteEngine On
+    RewriteRule ^/(.*)$ ajp://localhost:8003/appname/$1 [proxy,last]
+
+&lt;/VirtualHost&gt;</code></pre><figcaption></figcaption></figure>
+
+<p>
+On the Smalltalk side you need to load the packages <code>AJP-Core</code> and <code>AJP-Pharo-Core</code> directly with Monticello from <a href="http://www.squeaksource.com/ajp">http://www.squeaksource.com/ajp</a>. More conveniently you can also use the following Metacello script:
+</p>
+<figure><pre><code>Gofer new
+    squeaksource: 'MetacelloRepository';
+    package: 'ConfigurationOfAjp';
+    load.
+(Smalltalk globals at: #ConfigurationOfAjp)
+    project latestVersion load: 'AJP-Core'</code></pre><figcaption></figcaption></figure>
+
+<p>
+At that point you need to add and start the <code>AJPPharoAdaptor</code> on the correct port from within your image (8003 in this example) and your web application is up and running with AJP.
+</p>
+
+<h3>Maintaining Deployed Images</h3>
+<a id="ref:maintaining"></a>
+<p>
+If you followed all the instructions up to now, you should have a working Seaside server based on Seaside, Apache and some other tools. Apache is handling the file requests and passing on other requests to your Seaside application server. This setup is straightforward and enough for smaller productive applications.
+</p>
+<p>
+As your web application becomes widely used, you want to regularly provide fixes and new features to your users. Also you might want to investigate and debug the deployed server. To do that, you need a way to get our hands on the running VM. There are several possibilities to do that, we are going to look at those in this section.
+</p>
+<h4>Headful Pharo</h4>
+
+<p>
+Instead of running the VM headless as we did previously, it is also possible to run it headful as you do during development. This is common practice on Windows servers, but it is rarely done on Unix. Normally servers doesn’t come with a windowing system for performance and security reasons. Managing a headful image is straightforward, so we will not be discussing this case further.
+</p>
+<h4>VNC</h4>
+
+<p>
+A common technique is to run a VNC server within your deployed image. VNC (Virtual Network Computing) is a graphical desktop sharing system, which allows one to visually control another computer. The server constantly sends graphical screen updates through the network using a remote frame buffer (RFB) protocol, and the client sends back keyboard and mouse events. VNC is platform independent and there are several open-source server and client implementations available.
+</p>
+<p>
+Pharo comes with a VNC client and server implementation, which can optionally be loaded. It is called <em>Remote Frame Buffer (RFB)</em>. Unfortunately the project is not officially maintained anymore and the latest code is broken in Pharo, however you can get a working version from <a href="http://source.lukas-renggli.ch/unsorted/">http://source.lukas-renggli.ch/unsorted/</a>.
+</p>
+<p class="todo">Update </p>
+<p>
+Install the RFB package, define a password and start the server. Now you are able to connect to the Pharo screen using any VNC client. Either using the built-in client from a different Pharo image, or more likely using any other native client. Now you are able to connect to the server image from anywhere in the world, and this even works if the image is started headless. This is very useful to be able to directly interact with server images, for example to update code or investigate and fix a problem in the running image.
+</p>
+
+<h3>Deployment tools</h3>
+
+<p>
+Seaside comes with several tools included that help you with the management of deployed applications. The tools included with the Pharo distribution of Seaside includes:
+</p>
+<table style="border: solid thin"><tr><td style="text-align: left">Configuration</td>
+<td><a href="http://localhost:8080/config">http://localhost:8080/config</a></td>
+</tr>
+<tr><td style="text-align: left">System Status</td>
+<td><a href="http://localhost:8080/status">http://localhost:8080/status</a></td>
+</tr>
+<tr><td style="text-align: left">Class Browser</td>
+<td><a href="http://localhost:8080/tools/classbrowser">http://localhost:8080/tools/classbrowser</a></td>
+</tr>
+<tr><td style="text-align: left">Screenshot</td>
+<td><a href="http://localhost:8080/tools/screenshot">http://localhost:8080/tools/screenshot</a></td>
+</tr>
+<tr><td style="text-align: left">Version Uploader</td>
+<td><a href="http://localhost:8080/tools/versionuploader">http://localhost:8080/tools/versionuploader</a></td>
+</tr>
+</table>
+
+<p>
+<strong>Configuration.</strong> The Seaside configuration interface is described throughout this book, especially in the previous sections so we are not going to discuss this further.
+</p>
+<p>
+<strong>System Status.</strong> The System status is a tool that provides useful information on the system. It includes information on the image (see <a href="#fig:system-status"></a>), the virtual machine, Seaside, the garbage collector and the running processes.
+</p>
+
+<p>
+<a id="fig:system-status"></a>
+<figure>
+	<img src="figures/system-status.png" width="80%" id="fig:system-status" alt="System Status Tool."/>
+	<figcaption>System Status Tool.</figcaption>
+</figure>
+</p>
+
+
+<p>
+<strong>Class Browser.</strong> The class browser provides access the source code of the system and allows you to edit any method or class while your application is running.
+</p>
+<p>
+<strong>Screenshot.</strong> The screenshot application provides a view into your image, even if it runs headless. Clicking on the screenshot even allows you to open menus and to interact with the tools within your deployed image.
+</p>
+<p>
+<strong>Version Uploader.</strong> The version uploader is a simple interface to Monticello. It allows you to check what code is loaded into the image and gives you the possibility to update the code on the fly.
+</p>
+<p class="important">If you plan to use any of these tools in a deployed image make sure that they are properly secured from unauthorized access. You don't want that any of your users accidentally stumble upon one of them and you don't want to give hackers the possibility to compromise your system.</p>
+
+
+<h3>Request Handler</h3>
+
+<p>
+Another possibility to manage your headless images from the outside is to add a request handler that allows an administrator to access and manipulate the deployed application.
+</p>
+<p class="advanced">The technique described here is not limited to administering images, but can also be used for public services and data access using a RESTful API. Many web applications today provide such a functionality to interact with other web and desktop application.</p>
+<p>
+To get started we subclass <code>WARequestHandler</code> and register it as a new entry point:
+</p>
+<figure><pre><code>WARequestHandler subclass: #ManagementHandler
+     instanceVariableNames: ''
+     classVariableNames: ''
+     package: 'ManagementHandler'</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>ManagementHandler class &gt;&gt; initialize
+     WAAdmin register: self at: 'manager'</code></pre><figcaption></figcaption></figure>
+
+<p>
+The key method to override is <code>#handleFiltered:</code>. If the URL <code>manager</code> is accessed, then the registered handler receives <code>aRequestContext</code> passed into this method and has the possibility to produce a response and pass it back to the web server.
+</p>
+<p>
+The most generic way of handling this is to provide a piece of code that can be called to evaluate Pharo code within the image:
+</p>
+<figure><pre><code>ManagementHandler &gt;&gt; handleFiltered: aRequestContext
+    | source result |
+    source := aRequestContext request
+        at: 'code'
+        ifAbsent: [ self error: 'Missing code' ].
+    result := Compiler evaluate: source.
+    aRequestContext respond: [ :response |
+        response
+            contentType: WAMimeType textPlain;
+            nextPutAll: result asString ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+The first few lines of the code fetch the request parameter with the name code and store it into the temp <code>source</code>. Then we call the compiler to evaluate the code and store it into <code>result</code>. The last few lines generate a textual response and send it back to the web server.
+</p>
+<p>
+Now you can go to a web server and send commands to your image by navigating to an URL like: <a href="http://localhost:8080/manager?code=SystemVersion current">http://localhost:8080/manager?code=SystemVersion current</a>. This will send the Smalltalk code <code>SystemVersion current</code> to the image, evaluate it and send you back the result.
+</p>
+<p>
+Alternatively you might want to write some scripts that allow you to directly contact one or more images from the command line:
+</p>
+<figure><pre><code>$ curl 'http://localhost:8080/manager?code=SystemVersion current'
+Pharo1.0rc1 of 19 October 2009 update 10492</code></pre><figcaption></figcaption></figure>
+
+<p>
+If you install a request handler like the one presented here in your application make sure to properly protect it from unauthorized access, see Section <a href=""></a>.
+</p>
+<h3>Summary</h3>
+
+<p>
+We show how you can deploy your Seaside applications as well as maintained them over time. 
+</p>
+
+  </section>
+
+</article>
+
+<footer>
+
+<div class="footline">
+    <div class="github-link">
+      <a href="" target="blank"><i class="fa fa-code-fork"></i>Github</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/clipboard.min.js"></script>
+
+
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/highlightjs/styles/default.css">
+<link rel="stylesheet" href="/DynamicWebDevelopmentWithSeaside/_support/html/css/highlight-commands.css">
+<link href="/DynamicWebDevelopmentWithSeaside/_support/html/css/featherlight.min.css" rel="stylesheet">
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/featherlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/flex.js"></script>
+<!-- Prettify annotated paragraphs-->
+    <script src="/DynamicWebDevelopmentWithSeaside/_support/html/js/annotated-paragraphs.js"></script>
+
+  </body>
+</html>
